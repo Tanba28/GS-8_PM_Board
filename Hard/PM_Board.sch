@@ -1,4 +1,1770 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+LIBS:PM_Board-cache
+EELAYER 26 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR?
+U 1 1 5D84B485
+P 7050 5950
+F 0 "#PWR?" H 7050 5700 50  0001 C CNN
+F 1 "GND" H 7055 5777 50  0000 C CNN
+F 2 "" H 7050 5950 50  0001 C CNN
+F 3 "" H 7050 5950 50  0001 C CNN
+	1    7050 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 5850 6050 5900
+Wire Wire Line
+	6050 5900 6250 5900
+Wire Wire Line
+	7050 5900 7050 5950
+Wire Wire Line
+	7050 5850 7050 5900
+Connection ~ 7050 5900
+Wire Wire Line
+	6250 5850 6250 5900
+Connection ~ 6250 5900
+Wire Wire Line
+	6250 5900 6450 5900
+Wire Wire Line
+	6450 5850 6450 5900
+Connection ~ 6450 5900
+Wire Wire Line
+	6450 5900 6700 5900
+Wire Wire Line
+	6700 5850 6700 5900
+Connection ~ 6700 5900
+Wire Wire Line
+	6700 5900 6800 5900
+Wire Wire Line
+	6800 5850 6800 5900
+Connection ~ 6800 5900
+Wire Wire Line
+	6800 5900 6900 5900
+Wire Wire Line
+	6900 5850 6900 5900
+Connection ~ 6900 5900
+Wire Wire Line
+	6900 5900 7050 5900
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D85177D
+P 6700 1100
+F 0 "#PWR?" H 6700 950 50  0001 C CNN
+F 1 "+3.3V" H 6715 1273 50  0000 C CNN
+F 2 "" H 6700 1100 50  0001 C CNN
+F 3 "" H 6700 1100 50  0001 C CNN
+	1    6700 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 1100 6700 1150
+Wire Wire Line
+	5450 1200 5450 1150
+Wire Wire Line
+	5450 1150 5800 1150
+Connection ~ 6700 1150
+Wire Wire Line
+	5800 1200 5800 1150
+Connection ~ 5800 1150
+Wire Wire Line
+	5800 1150 6150 1150
+Wire Wire Line
+	6150 1200 6150 1150
+Connection ~ 6150 1150
+Wire Wire Line
+	6150 1150 6500 1150
+Wire Wire Line
+	6500 1200 6500 1150
+Connection ~ 6500 1150
+Wire Wire Line
+	6500 1150 6700 1150
+Wire Wire Line
+	5450 1400 5450 1450
+Wire Wire Line
+	5450 1450 5800 1450
+Wire Wire Line
+	5800 1400 5800 1450
+Connection ~ 5800 1450
+Wire Wire Line
+	5800 1450 6150 1450
+Wire Wire Line
+	6150 1400 6150 1450
+Connection ~ 6150 1450
+Wire Wire Line
+	6150 1450 6500 1450
+Wire Wire Line
+	6500 1400 6500 1450
+$Comp
+L power:GND #PWR?
+U 1 1 5D85C6B4
+P 5450 1500
+F 0 "#PWR?" H 5450 1250 50  0001 C CNN
+F 1 "GND" H 5455 1327 50  0000 C CNN
+F 2 "" H 5450 1500 50  0001 C CNN
+F 3 "" H 5450 1500 50  0001 C CNN
+	1    5450 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 1500 5450 1450
+Connection ~ 5450 1450
+Wire Wire Line
+	5800 1700 5800 1650
+Wire Wire Line
+	5800 1650 6150 1650
+Connection ~ 6700 1650
+Wire Wire Line
+	6150 1650 6150 1700
+Connection ~ 6150 1650
+Wire Wire Line
+	6150 1650 6500 1650
+Wire Wire Line
+	6500 1650 6500 1700
+Connection ~ 6500 1650
+Wire Wire Line
+	6500 1650 6700 1650
+Wire Wire Line
+	5800 1950 5800 1900
+Wire Wire Line
+	6150 1900 6150 1950
+Connection ~ 6150 1950
+Wire Wire Line
+	6150 1950 5800 1950
+Wire Wire Line
+	6500 1900 6500 1950
+Wire Wire Line
+	6500 1950 6150 1950
+$Comp
+L power:GND #PWR?
+U 1 1 5D86106F
+P 5800 2000
+F 0 "#PWR?" H 5800 1750 50  0001 C CNN
+F 1 "GND" H 5805 1827 50  0000 C CNN
+F 2 "" H 5800 2000 50  0001 C CNN
+F 3 "" H 5800 2000 50  0001 C CNN
+	1    5800 2000
+	1    0    0    -1  
+$EndComp
+Connection ~ 5800 1950
+Wire Wire Line
+	5800 2000 5800 1950
+Wire Wire Line
+	6200 2250 6200 2150
+Wire Wire Line
+	6200 2150 6300 2150
+Connection ~ 6700 2150
+Wire Wire Line
+	6700 2150 6700 2250
+Wire Wire Line
+	6300 2250 6300 2150
+Connection ~ 6300 2150
+Wire Wire Line
+	6300 2150 6400 2150
+Wire Wire Line
+	6400 2250 6400 2150
+Connection ~ 6400 2150
+Wire Wire Line
+	6400 2150 6500 2150
+Wire Wire Line
+	6500 2250 6500 2150
+Connection ~ 6500 2150
+Wire Wire Line
+	6500 2150 6700 2150
+$Comp
+L power:GND #PWR?
+U 1 1 5D86B573
+P 7100 2000
+F 0 "#PWR?" H 7100 1750 50  0001 C CNN
+F 1 "GND" H 7105 1827 50  0000 C CNN
+F 2 "" H 7100 2000 50  0001 C CNN
+F 3 "" H 7100 2000 50  0001 C CNN
+	1    7100 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 1900 7100 2000
+$Comp
+L power:GND #PWR?
+U 1 1 5D86D1CC
+P 7850 2150
+F 0 "#PWR?" H 7850 1900 50  0001 C CNN
+F 1 "GND" H 7855 1977 50  0000 C CNN
+F 2 "" H 7850 2150 50  0001 C CNN
+F 3 "" H 7850 2150 50  0001 C CNN
+	1    7850 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 2250 7300 1950
+Wire Wire Line
+	7300 1950 7500 1950
+Wire Wire Line
+	7500 2250 7500 2100
+Wire Wire Line
+	7700 1950 7850 1950
+Wire Wire Line
+	7850 1950 7850 2100
+Wire Wire Line
+	7700 2100 7850 2100
+Connection ~ 7850 2100
+Wire Wire Line
+	7850 2100 7850 2150
+$Comp
+L Device:C_Small C?
+U 1 1 5D87E8E9
+P 9150 5200
+F 0 "C?" H 9058 5154 50  0000 R CNN
+F 1 "9p" H 9058 5245 50  0000 R CNN
+F 2 "" H 9150 5200 50  0001 C CNN
+F 3 "~" H 9150 5200 50  0001 C CNN
+	1    9150 5200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5D8801A9
+P 9850 5200
+F 0 "C?" H 9942 5246 50  0000 L CNN
+F 1 "9p" H 9942 5155 50  0000 L CNN
+F 2 "" H 9850 5200 50  0001 C CNN
+F 3 "~" H 9850 5200 50  0001 C CNN
+	1    9850 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 4700 9150 5100
+Wire Wire Line
+	9350 5100 9150 5100
+Wire Wire Line
+	9650 5100 9850 5100
+Wire Wire Line
+	9850 5100 9850 4600
+Connection ~ 9150 5100
+Connection ~ 9850 5100
+$Comp
+L power:GND #PWR?
+U 1 1 5D88ED09
+P 9150 5300
+F 0 "#PWR?" H 9150 5050 50  0001 C CNN
+F 1 "GND" H 9155 5127 50  0000 C CNN
+F 2 "" H 9150 5300 50  0001 C CNN
+F 3 "" H 9150 5300 50  0001 C CNN
+	1    9150 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D88EE43
+P 9850 5300
+F 0 "#PWR?" H 9850 5050 50  0001 C CNN
+F 1 "GND" H 9855 5127 50  0000 C CNN
+F 2 "" H 9850 5300 50  0001 C CNN
+F 3 "" H 9850 5300 50  0001 C CNN
+	1    9850 5300
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8050 4900
+NoConn ~ 8050 5000
+$Comp
+L Connector:USB_B_Micro J?
+U 1 1 5D893C01
+P 8650 5500
+F 0 "J?" H 8420 5489 50  0000 R CNN
+F 1 "USB_B_Micro" H 8420 5398 50  0000 R CNN
+F 2 "" H 8800 5450 50  0001 C CNN
+F 3 "https://www.hirose.com/product/document?clcode=CL0242-0056-3-30&productname=ZX62D-B-5PA8(30)&series=ZX&documenttype=Catalog&lang=en&documentid=D31704_en" H 8800 5450 50  0001 C CNN
+F 4 "Digikey" H 8650 5500 50  0001 C CNN "Agency"
+F 5 "ZX62D-B-5P8(30)" H 8650 5500 50  0001 C CNN "MPN"
+	1    8650 5500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5D8A1AB6
+P 8200 5500
+F 0 "R?" V 8100 5500 50  0000 C CNN
+F 1 "22" V 8200 5500 39  0000 C CNN
+F 2 "" H 8200 5500 50  0001 C CNN
+F 3 "~" H 8200 5500 50  0001 C CNN
+	1    8200 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5D8A2FF8
+P 8200 5600
+F 0 "R?" V 8100 5600 50  0000 C CNN
+F 1 "22" V 8200 5600 39  0000 C CNN
+F 2 "" H 8200 5600 50  0001 C CNN
+F 3 "~" H 8200 5600 50  0001 C CNN
+	1    8200 5600
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	8100 5500 8050 5500
+Wire Wire Line
+	8050 5600 8100 5600
+Wire Wire Line
+	8300 5600 8350 5600
+Wire Wire Line
+	8350 5500 8300 5500
+$Comp
+L power:GND #PWR?
+U 1 1 5D8AD9E8
+P 8700 5950
+F 0 "#PWR?" H 8700 5700 50  0001 C CNN
+F 1 "GND" H 8705 5777 50  0000 C CNN
+F 2 "" H 8700 5950 50  0001 C CNN
+F 3 "" H 8700 5950 50  0001 C CNN
+	1    8700 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 5900 8650 5950
+Wire Wire Line
+	8650 5950 8700 5950
+Wire Wire Line
+	8700 5950 8750 5950
+Wire Wire Line
+	8750 5950 8750 5900
+Connection ~ 8700 5950
+Wire Wire Line
+	8050 4600 9850 4600
+Wire Wire Line
+	8050 4700 9150 4700
+$Comp
+L KUTKiCad_symbol:KRC_Conn_SWD J?
+U 1 1 5D8C0AD1
+P 4800 3900
+F 0 "J?" H 4550 3600 60  0000 R CNN
+F 1 "KRC_Conn_SWD" H 4650 4250 60  0000 C CNN
+F 2 "" H 4475 3900 60  0000 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eJQ.pdf" H 4475 3900 60  0001 C CNN
+F 4 "Digikey" H 4800 3900 50  0001 C CNN "Agency"
+F 5 "05JQ-BT" H 4800 3900 50  0001 C CNN "MPN"
+	1    4800 3900
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D8C968C
+P 5200 4100
+F 0 "#PWR?" H 5200 3850 50  0001 C CNN
+F 1 "GND" H 5205 3927 50  0000 C CNN
+F 2 "" H 5200 4100 50  0001 C CNN
+F 3 "" H 5200 4100 50  0001 C CNN
+	1    5200 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 4000 5200 4100
+Wire Wire Line
+	4900 3700 5350 3700
+Wire Wire Line
+	4900 3800 5350 3800
+Wire Wire Line
+	4900 3900 5350 3900
+Wire Wire Line
+	4900 4000 5200 4000
+$Comp
+L KUTKiCad_symbol:NCV7342 U?
+U 1 1 5D84BD5B
+P 2850 6450
+F 0 "U?" H 3150 6000 60  0000 C CNN
+F 1 "NCV7342" H 2600 6000 60  0000 C CNN
+F 2 "" H 2850 6450 60  0001 C CNN
+F 3 "" H 2850 6450 60  0001 C CNN
+	1    2850 6450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5D855365
+P 2150 6300
+F 0 "R?" V 2050 6300 50  0000 C CNN
+F 1 "22" V 2150 6300 39  0000 C CNN
+F 2 "" H 2150 6300 50  0001 C CNN
+F 3 "~" H 2150 6300 50  0001 C CNN
+	1    2150 6300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5D855500
+P 2150 6600
+F 0 "R?" V 2050 6600 50  0000 C CNN
+F 1 "22" V 2150 6600 39  0000 C CNN
+F 2 "" H 2150 6600 50  0001 C CNN
+F 3 "~" H 2150 6600 50  0001 C CNN
+	1    2150 6600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2150 6150 2350 6150
+Wire Wire Line
+	2350 6150 2350 6300
+Wire Wire Line
+	2350 6300 2400 6300
+Wire Wire Line
+	2400 6600 2350 6600
+Wire Wire Line
+	2350 6600 2350 6750
+Wire Wire Line
+	2150 6750 2150 6700
+Wire Wire Line
+	2150 6150 2150 6200
+$Comp
+L Device:C_Small C?
+U 1 1 5D860226
+P 2000 6600
+F 0 "C?" H 1908 6554 50  0000 R CNN
+F 1 "4.7n" H 1908 6645 50  0000 R CNN
+F 2 "" H 2000 6600 50  0001 C CNN
+F 3 "~" H 2000 6600 50  0001 C CNN
+	1    2000 6600
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2150 6400 2150 6450
+Wire Wire Line
+	2000 6500 2000 6450
+Wire Wire Line
+	2000 6450 2150 6450
+Connection ~ 2150 6450
+Wire Wire Line
+	2150 6450 2150 6500
+$Comp
+L power:GND #PWR?
+U 1 1 5D86629D
+P 2000 6800
+F 0 "#PWR?" H 2000 6550 50  0001 C CNN
+F 1 "GND" H 2005 6627 50  0000 C CNN
+F 2 "" H 2000 6800 50  0001 C CNN
+F 3 "" H 2000 6800 50  0001 C CNN
+	1    2000 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 6700 2000 6800
+Wire Wire Line
+	1400 6400 1750 6400
+Wire Wire Line
+	1750 6400 1750 6150
+Wire Wire Line
+	1750 6150 2150 6150
+Connection ~ 2150 6150
+Wire Wire Line
+	1400 6500 1750 6500
+Wire Wire Line
+	1750 6500 1750 6750
+Wire Wire Line
+	1750 6750 2150 6750
+Connection ~ 2150 6750
+Wire Wire Line
+	2150 6750 2350 6750
+$Comp
+L power:GND #PWR?
+U 1 1 5D873E78
+P 2850 6950
+F 0 "#PWR?" H 2850 6700 50  0001 C CNN
+F 1 "GND" H 2855 6777 50  0000 C CNN
+F 2 "" H 2850 6950 50  0001 C CNN
+F 3 "" H 2850 6950 50  0001 C CNN
+	1    2850 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5D873FE3
+P 2750 5500
+F 0 "#PWR?" H 2750 5350 50  0001 C CNN
+F 1 "+5V" H 2765 5673 50  0000 C CNN
+F 2 "" H 2750 5500 50  0001 C CNN
+F 3 "" H 2750 5500 50  0001 C CNN
+	1    2750 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D874048
+P 3050 5500
+F 0 "#PWR?" H 3050 5350 50  0001 C CNN
+F 1 "+3.3V" H 3065 5673 50  0000 C CNN
+F 2 "" H 3050 5500 50  0001 C CNN
+F 3 "" H 3050 5500 50  0001 C CNN
+	1    3050 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 5500 2750 5550
+Wire Wire Line
+	2750 5550 2850 5550
+Wire Wire Line
+	2950 5550 3050 5550
+Wire Wire Line
+	3050 5550 3050 5500
+Wire Wire Line
+	3050 5550 3200 5550
+Wire Wire Line
+	3200 5550 3200 5600
+Connection ~ 3050 5550
+Wire Wire Line
+	2750 5550 2600 5550
+Wire Wire Line
+	2600 5550 2600 5600
+Connection ~ 2750 5550
+$Comp
+L power:GND #PWR?
+U 1 1 5D884F92
+P 3200 5800
+F 0 "#PWR?" H 3200 5550 50  0001 C CNN
+F 1 "GND" H 3205 5627 50  0000 C CNN
+F 2 "" H 3200 5800 50  0001 C CNN
+F 3 "" H 3200 5800 50  0001 C CNN
+	1    3200 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D884FCF
+P 2600 5800
+F 0 "#PWR?" H 2600 5550 50  0001 C CNN
+F 1 "GND" H 2605 5627 50  0000 C CNN
+F 2 "" H 2600 5800 50  0001 C CNN
+F 3 "" H 2600 5800 50  0001 C CNN
+	1    2600 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 5550 2850 5950
+Wire Wire Line
+	2950 5550 2950 5950
+Wire Wire Line
+	1400 6300 1700 6300
+Wire Wire Line
+	2400 3350 2400 3450
+Connection ~ 2400 3350
+$Comp
+L power:GND #PWR?
+U 1 1 5D8D3296
+P 2900 3750
+F 0 "#PWR?" H 2900 3500 50  0001 C CNN
+F 1 "GND" H 2905 3577 50  0000 C CNN
+F 2 "" H 2900 3750 50  0001 C CNN
+F 3 "" H 2900 3750 50  0001 C CNN
+	1    2900 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D8D3394
+P 2200 3750
+F 0 "#PWR?" H 2200 3500 50  0001 C CNN
+F 1 "GND" H 2205 3577 50  0000 C CNN
+F 2 "" H 2200 3750 50  0001 C CNN
+F 3 "" H 2200 3750 50  0001 C CNN
+	1    2200 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D8D8A39
+P 3700 3750
+F 0 "#PWR?" H 3700 3500 50  0001 C CNN
+F 1 "GND" H 3705 3577 50  0000 C CNN
+F 2 "" H 3700 3750 50  0001 C CNN
+F 3 "" H 3700 3750 50  0001 C CNN
+	1    3700 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5D8E915F
+P 3700 3300
+F 0 "#PWR?" H 3700 3150 50  0001 C CNN
+F 1 "+5V" H 3715 3473 50  0000 C CNN
+F 2 "" H 3700 3300 50  0001 C CNN
+F 3 "" H 3700 3300 50  0001 C CNN
+	1    3700 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 3350 2000 4350
+Wire Wire Line
+	2000 4350 2200 4350
+Wire Wire Line
+	3700 3350 3700 3450
+Wire Wire Line
+	3700 3650 3700 3750
+Wire Wire Line
+	2000 3350 2200 3350
+Wire Wire Line
+	2200 3650 2200 3750
+Wire Wire Line
+	2200 3450 2200 3350
+Connection ~ 2200 3350
+Wire Wire Line
+	2200 3350 2400 3350
+$Comp
+L power:GND #PWR?
+U 1 1 5D97BC88
+P 2900 4850
+F 0 "#PWR?" H 2900 4600 50  0001 C CNN
+F 1 "GND" H 2905 4677 50  0000 C CNN
+F 2 "" H 2900 4850 50  0001 C CNN
+F 3 "" H 2900 4850 50  0001 C CNN
+	1    2900 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D97BCCF
+P 2200 4850
+F 0 "#PWR?" H 2200 4600 50  0001 C CNN
+F 1 "GND" H 2205 4677 50  0000 C CNN
+F 2 "" H 2200 4850 50  0001 C CNN
+F 3 "" H 2200 4850 50  0001 C CNN
+	1    2200 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 4850 2200 4650
+Wire Wire Line
+	2200 4450 2200 4350
+Connection ~ 2200 4350
+$Comp
+L power:GND #PWR?
+U 1 1 5D988BFC
+P 3700 4850
+F 0 "#PWR?" H 3700 4600 50  0001 C CNN
+F 1 "GND" H 3705 4677 50  0000 C CNN
+F 2 "" H 3700 4850 50  0001 C CNN
+F 3 "" H 3700 4850 50  0001 C CNN
+	1    3700 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 4850 3700 4650
+Wire Wire Line
+	3700 4350 3700 4450
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D9BEB1E
+P 3700 4200
+F 0 "#PWR?" H 3700 4050 50  0001 C CNN
+F 1 "+3.3V" H 3715 4373 50  0000 C CNN
+F 2 "" H 3700 4200 50  0001 C CNN
+F 3 "" H 3700 4200 50  0001 C CNN
+	1    3700 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 4200 3700 4350
+Connection ~ 3700 4350
+$Comp
+L Connector:Micro_SD_Card_Det_Hirose_DM3AT J?
+U 1 1 5D9DC367
+P 10250 1700
+F 0 "J?" H 10200 2517 50  0000 C CNN
+F 1 "Micro_SD_Card_Det_Hirose_DM3AT" H 10200 2426 50  0000 C CNN
+F 2 "" H 12300 2400 50  0001 C CNN
+F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1" H 10250 1800 50  0001 C CNN
+F 4 "秋月電子" H 10250 1700 50  0001 C CNN "Agency"
+F 5 "DM3AT-SF-PEJM5" H 10250 1700 50  0001 C CNN "MPN"
+	1    10250 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5D9E3D5D
+P 9250 1100
+F 0 "R?" H 9309 1146 50  0000 L CNN
+F 1 "47k" H 9309 1055 50  0000 L CNN
+F 2 "" H 9250 1100 50  0001 C CNN
+F 3 "~" H 9250 1100 50  0001 C CNN
+	1    9250 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5D9E3E8C
+P 9000 1100
+F 0 "R?" H 9059 1146 50  0000 L CNN
+F 1 "47k" H 9059 1055 50  0000 L CNN
+F 2 "" H 9000 1100 50  0001 C CNN
+F 3 "~" H 9000 1100 50  0001 C CNN
+	1    9000 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 2000 9000 2000
+NoConn ~ 9350 2100
+NoConn ~ 9350 2200
+Wire Wire Line
+	9250 1200 9250 1300
+Wire Wire Line
+	9250 1300 9350 1300
+Wire Wire Line
+	9000 1200 9000 2000
+Wire Wire Line
+	9350 1800 9200 1800
+Wire Wire Line
+	9200 1800 9200 2200
+$Comp
+L power:GND #PWR?
+U 1 1 5DA70AF0
+P 9200 2200
+F 0 "#PWR?" H 9200 1950 50  0001 C CNN
+F 1 "GND" H 9205 2027 50  0000 C CNN
+F 2 "" H 9200 2200 50  0001 C CNN
+F 3 "" H 9200 2200 50  0001 C CNN
+	1    9200 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DA70B46
+P 8800 2200
+F 0 "#PWR?" H 8800 1950 50  0001 C CNN
+F 1 "GND" H 8805 2027 50  0000 C CNN
+F 2 "" H 8800 2200 50  0001 C CNN
+F 3 "" H 8800 2200 50  0001 C CNN
+	1    8800 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 1600 9350 1600
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DAA023F
+P 8800 800
+F 0 "#PWR?" H 8800 650 50  0001 C CNN
+F 1 "+3.3V" H 8815 973 50  0000 C CNN
+F 2 "" H 8800 800 50  0001 C CNN
+F 3 "" H 8800 800 50  0001 C CNN
+	1    8800 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 800  8800 850 
+Wire Wire Line
+	8800 850  9000 850 
+Wire Wire Line
+	9250 850  9250 1000
+Connection ~ 8800 850 
+Wire Wire Line
+	8800 850  8800 1100
+Wire Wire Line
+	9000 1000 9000 850 
+Connection ~ 9000 850 
+Wire Wire Line
+	9000 850  9250 850 
+Wire Wire Line
+	8800 1800 8550 1800
+Wire Wire Line
+	8550 1800 8550 1950
+Wire Wire Line
+	8800 1800 8800 1950
+$Comp
+L power:GND #PWR?
+U 1 1 5DAC9BFF
+P 8550 2200
+F 0 "#PWR?" H 8550 1950 50  0001 C CNN
+F 1 "GND" H 8555 2027 50  0000 C CNN
+F 2 "" H 8550 2200 50  0001 C CNN
+F 3 "" H 8550 2200 50  0001 C CNN
+	1    8550 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 2200 8550 2150
+Wire Wire Line
+	8800 2150 8800 2200
+Wire Wire Line
+	8800 1100 8550 1100
+Wire Wire Line
+	8550 1100 8550 1800
+Connection ~ 8800 1100
+Wire Wire Line
+	8800 1100 8800 1600
+Connection ~ 8550 1800
+Text Label 8200 1900 0    50   ~ 0
+SD_MISO
+Text Label 8200 1700 0    50   ~ 0
+SD_CLK
+Text Label 8200 1500 0    50   ~ 0
+SD_MOSI
+Text Label 8200 1400 0    50   ~ 0
+SD_CS
+Wire Wire Line
+	8200 1400 9350 1400
+Wire Wire Line
+	8200 1500 9350 1500
+Wire Wire Line
+	8200 1700 9350 1700
+Wire Wire Line
+	8200 1900 9350 1900
+$Comp
+L power:GND #PWR?
+U 1 1 5DB2C325
+P 11050 2200
+F 0 "#PWR?" H 11050 1950 50  0001 C CNN
+F 1 "GND" H 11055 2027 50  0000 C CNN
+F 2 "" H 11050 2200 50  0001 C CNN
+F 3 "" H 11050 2200 50  0001 C CNN
+	1    11050 2200
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4900 4100
+NoConn ~ 8350 5300
+$Comp
+L Analog_ADC:INA226 U?
+U 1 1 5DB7B6CE
+P 2900 2300
+F 0 "U?" H 2650 2750 50  0000 C CNN
+F 1 "INA226" H 2900 2300 50  0000 C CNN
+F 2 "Package_SO:MSOP-10_3x3mm_P0.5mm" H 2950 2400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ina226.pdf" H 3250 2200 50  0001 C CNN
+F 4 "Digikey" H 2900 2300 50  0001 C CNN "Agency"
+F 5 "INA226AIDGSR" H 2900 2300 50  0001 C CNN "MPN"
+	1    2900 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DB8CDC3
+P 2900 1600
+F 0 "#PWR?" H 2900 1450 50  0001 C CNN
+F 1 "+3.3V" H 2915 1773 50  0000 C CNN
+F 2 "" H 2900 1600 50  0001 C CNN
+F 3 "" H 2900 1600 50  0001 C CNN
+	1    2900 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 1600 2900 1700
+$Comp
+L power:GND #PWR?
+U 1 1 5DB9E653
+P 3300 1700
+F 0 "#PWR?" H 3300 1450 50  0001 C CNN
+F 1 "GND" V 3305 1572 50  0000 R CNN
+F 2 "" H 3300 1700 50  0001 C CNN
+F 3 "" H 3300 1700 50  0001 C CNN
+	1    3300 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3300 1700 3200 1700
+Connection ~ 2900 1700
+Wire Wire Line
+	2900 1700 2900 1800
+Wire Wire Line
+	2900 1700 3000 1700
+$Comp
+L power:GND #PWR?
+U 1 1 5DBC204E
+P 3400 2050
+F 0 "#PWR?" H 3400 1800 50  0001 C CNN
+F 1 "GND" V 3405 1922 50  0000 R CNN
+F 2 "" H 3400 2050 50  0001 C CNN
+F 3 "" H 3400 2050 50  0001 C CNN
+	1    3400 2050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3400 2050 3350 2050
+Wire Wire Line
+	3350 2050 3350 2000
+Wire Wire Line
+	3350 2000 3300 2000
+Wire Wire Line
+	3300 2100 3350 2100
+Wire Wire Line
+	3350 2100 3350 2050
+Connection ~ 3350 2050
+$Comp
+L power:GND #PWR?
+U 1 1 5DBD5001
+P 2900 2800
+F 0 "#PWR?" H 2900 2550 50  0001 C CNN
+F 1 "GND" H 2905 2627 50  0000 C CNN
+F 2 "" H 2900 2800 50  0001 C CNN
+F 3 "" H 2900 2800 50  0001 C CNN
+	1    2900 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5DBDEFB0
+P 2050 2550
+F 0 "R?" V 1950 2550 50  0000 C CNN
+F 1 "4.7" V 2050 2550 39  0000 C CNN
+F 2 "" H 2050 2550 50  0001 C CNN
+F 3 "~" H 2050 2550 50  0001 C CNN
+	1    2050 2550
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5DBDF204
+P 2050 2350
+F 0 "R?" V 1950 2350 50  0000 C CNN
+F 1 "4.7" V 2050 2350 39  0000 C CNN
+F 2 "" H 2050 2350 50  0001 C CNN
+F 3 "~" H 2050 2350 50  0001 C CNN
+	1    2050 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DBF2C29
+P 2200 2450
+F 0 "C?" H 2250 2500 50  0000 L CNN
+F 1 "0.1u" H 2250 2400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2200 2450 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R62A104KE14-01.pdf" H 2200 2450 50  0001 C CNN
+F 4 "Digikey" H 2200 2450 50  0001 C CNN "Agency"
+F 5 "GRM155R62A104KE14D" H 2200 2450 50  0001 C CNN "MPN"
+F 6 "0.1uF" H 2200 2450 50  0001 C CNN "Value"
+	1    2200 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 2350 2200 2350
+Wire Wire Line
+	2450 2350 2450 2400
+Wire Wire Line
+	2450 2400 2500 2400
+Connection ~ 2200 2350
+Wire Wire Line
+	2200 2350 2450 2350
+Wire Wire Line
+	2500 2500 2450 2500
+Wire Wire Line
+	2450 2500 2450 2550
+Wire Wire Line
+	2450 2550 2200 2550
+Connection ~ 2200 2550
+Wire Wire Line
+	2200 2550 2150 2550
+$Comp
+L KUTKiCad_symbol:KRC_Conn_CAN J?
+U 1 1 5DC93A0B
+P 1300 5600
+F 0 "J?" H 1800 5600 50  0000 C CNN
+F 1 "KRC_Conn_CAN" H 1450 5300 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal" H 1300 5600 50  0001 C CNN
+F 3 "http://download.siliconexpert.com/pdfs/2014/12/9/8/14/1/458/jst_/manual/29exh.pdf" H 1300 5600 50  0001 C CNN
+F 4 "chip1stop" H 1300 5600 50  0001 C CNN "Agency"
+F 5 "S4B-XH-A" H 1300 5600 50  0001 C CNN "MPN"
+	1    1300 5600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 5550 1700 5550
+Connection ~ 1700 5550
+NoConn ~ 1400 5650
+NoConn ~ 1400 5750
+$Comp
+L power:GND #PWR?
+U 1 1 5DCE33BD
+P 3350 1050
+F 0 "#PWR?" H 3350 800 50  0001 C CNN
+F 1 "GND" H 3355 877 50  0000 C CNN
+F 2 "" H 3350 1050 50  0001 C CNN
+F 3 "" H 3350 1050 50  0001 C CNN
+	1    3350 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 1050 3350 1000
+Wire Wire Line
+	3350 1000 3100 1000
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5DD130B9
+P 2900 900
+F 0 "J?" H 3006 1078 50  0000 C CNN
+F 1 "LiPo_V+" H 2700 900 50  0000 C CNN
+F 2 "" H 2900 900 50  0001 C CNN
+F 3 "~" H 2900 900 50  0001 C CNN
+	1    2900 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5DD13135
+P 2900 1000
+F 0 "J?" H 2900 950 50  0000 C CNN
+F 1 "LiPo_V-" H 2700 1000 50  0000 C CNN
+F 2 "" H 2900 1000 50  0001 C CNN
+F 3 "~" H 2900 1000 50  0001 C CNN
+	1    2900 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L KUTKiCad_symbol:CY8C58xxLTI-LPxxx U?
+U 1 1 5DE600A9
+P 6700 4200
+F 0 "U?" H 6700 4300 60  0000 C CNN
+F 1 "CY8C58xxLTI-LPxxx" H 6700 4200 60  0000 C CNN
+F 2 "" H 6700 4200 60  0001 C CNN
+F 3 "https://www.cypress.com/file/45906/download" H 6700 4200 60  0001 C CNN
+F 4 "Digikey" H 6700 4200 50  0001 C CNN "Agency"
+F 5 "CY8C5868LTI-LP039" H 6700 4200 50  0001 C CNN "MPN"
+	1    6700 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 2350 1950 2350
+Wire Wire Line
+	1950 2550 1850 2550
+$Comp
+L Device:Q_NMOS_GDS Q?
+U 1 1 5DEB44B0
+P 1600 7200
+F 0 "Q?" H 1850 7200 50  0000 L CNN
+F 1 "NMOSFET" H 1550 7100 50  0000 R CNN
+F 2 "" H 1800 7300 50  0001 C CNN
+F 3 "~" H 1600 7200 50  0001 C CNN
+	1    1600 7200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1400 6200 1500 6200
+$Comp
+L power:GND #PWR?
+U 1 1 5DEC13CC
+P 1500 7500
+F 0 "#PWR?" H 1500 7250 50  0001 C CNN
+F 1 "GND" H 1505 7327 50  0000 C CNN
+F 2 "" H 1500 7500 50  0001 C CNN
+F 3 "" H 1500 7500 50  0001 C CNN
+	1    1500 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 5450 1500 5450
+$Comp
+L Device:R_Small R?
+U 1 1 5DFD357D
+P 1850 7400
+F 0 "R?" H 1909 7446 50  0000 L CNN
+F 1 "1k" H 1909 7355 50  0000 L CNN
+F 2 "" H 1850 7400 50  0001 C CNN
+F 3 "~" H 1850 7400 50  0001 C CNN
+	1    1850 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DFD3A05
+P 1850 7500
+F 0 "#PWR?" H 1850 7250 50  0001 C CNN
+F 1 "GND" H 1855 7327 50  0000 C CNN
+F 2 "" H 1850 7500 50  0001 C CNN
+F 3 "" H 1850 7500 50  0001 C CNN
+	1    1850 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 7200 1850 7200
+Wire Wire Line
+	1850 7200 1850 7300
+Wire Wire Line
+	1500 7500 1500 7400
+Text Label 3650 7200 2    50   ~ 0
+Power_Cutoff
+Connection ~ 1850 7200
+Text Label 3650 6300 2    50   ~ 0
+CAN_STB
+Text Label 3650 6500 2    50   ~ 0
+CAN_TXD
+Text Label 3650 6600 2    50   ~ 0
+CAN_RXD
+Wire Wire Line
+	3300 6300 3650 6300
+Wire Wire Line
+	3650 6500 3300 6500
+Wire Wire Line
+	3300 6600 3650 6600
+Wire Wire Line
+	1850 7200 3650 7200
+Wire Wire Line
+	1500 6200 1500 7000
+Connection ~ 1500 6200
+Wire Wire Line
+	1700 5550 1700 6300
+Wire Wire Line
+	1500 5450 1500 6200
+Wire Notes Line
+	4050 500  4050 7700
+Wire Notes Line
+	4050 1300 550  1300
+Wire Wire Line
+	3700 3300 3700 3350
+Connection ~ 3700 3350
+Wire Notes Line
+	4050 3050 500  3050
+Wire Notes Line
+	500  5150 4050 5150
+Wire Notes Line
+	1200 7750 1200 6950
+Wire Notes Line
+	1200 6950 3700 6950
+Wire Notes Line
+	3700 6950 3700 7750
+Wire Notes Line
+	3700 7750 1200 7750
+Text Notes 2200 600  0    50   ~ 0
+Power Input(Li-Po 2S 7.4V)
+Text Notes 600  1450 0    50   ~ 0
+Current and Power Monitor(Hi-Side)
+Text Notes 600  3200 0    50   ~ 0
+System Power Regulator
+Text Notes 550  5250 0    50   ~ 0
+CAN Bus
+Text Notes 3150 7700 0    50   ~ 0
+Power Cutoff
+Text Label 4850 5450 0    50   ~ 0
+CAN_TXD
+Text Label 4850 5550 0    50   ~ 0
+CAN_RXD
+Text Label 4850 5350 0    50   ~ 0
+CAN_STB
+Wire Wire Line
+	4850 5350 5350 5350
+Wire Wire Line
+	4850 5450 5350 5450
+Wire Wire Line
+	4850 5550 5350 5550
+Text Label 4750 5150 0    50   ~ 0
+SD_MISO
+Text Label 4750 5050 0    50   ~ 0
+SD_CLK
+Text Label 4750 4950 0    50   ~ 0
+SD_MOSI
+Text Label 4750 4850 0    50   ~ 0
+SD_CS
+Wire Wire Line
+	4750 4850 5350 4850
+Wire Wire Line
+	4750 4950 5350 4950
+Wire Wire Line
+	4750 5050 5350 5050
+Wire Wire Line
+	4750 5150 5350 5150
+Text Label 3800 2300 2    50   ~ 0
+INA226_SDA
+Text Label 3800 2400 2    50   ~ 0
+INA226_SCL
+$Comp
+L Device:R_Small R?
+U 1 1 5D868D6F
+P 8750 4000
+F 0 "R?" H 8809 4046 50  0000 L CNN
+F 1 "10k" H 8809 3955 50  0000 L CNN
+F 2 "" H 8750 4000 50  0001 C CNN
+F 3 "~" H 8750 4000 50  0001 C CNN
+	1    8750 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5D868EBD
+P 9000 4000
+F 0 "R?" H 9059 4046 50  0000 L CNN
+F 1 "10k" H 9059 3955 50  0000 L CNN
+F 2 "" H 9000 4000 50  0001 C CNN
+F 3 "~" H 9000 4000 50  0001 C CNN
+	1    9000 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 2300 3800 2300
+Wire Wire Line
+	3300 2400 3800 2400
+Text Label 8650 4200 2    50   ~ 0
+INA226_SDA
+Text Label 8650 4300 2    50   ~ 0
+INA226_SCL
+Text Label 8650 4400 2    50   ~ 0
+INA226_Aleart
+$Comp
+L Device:R_Small R?
+U 1 1 5D8D161D
+P 9250 4000
+F 0 "R?" H 9309 4046 50  0000 L CNN
+F 1 "10k" H 9309 3955 50  0000 L CNN
+F 2 "" H 9250 4000 50  0001 C CNN
+F 3 "~" H 9250 4000 50  0001 C CNN
+	1    9250 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 4200 8750 4200
+Wire Wire Line
+	9000 4300 9000 4100
+Wire Wire Line
+	8050 4300 9000 4300
+Wire Wire Line
+	8750 4100 8750 4200
+Wire Wire Line
+	9250 4400 9250 4100
+Wire Wire Line
+	8050 4400 9250 4400
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D91E91D
+P 8750 3900
+F 0 "#PWR?" H 8750 3750 50  0001 C CNN
+F 1 "+3.3V" H 8765 4073 50  0000 C CNN
+F 2 "" H 8750 3900 50  0001 C CNN
+F 3 "" H 8750 3900 50  0001 C CNN
+	1    8750 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D91E993
+P 9000 3900
+F 0 "#PWR?" H 9000 3750 50  0001 C CNN
+F 1 "+3.3V" H 9015 4073 50  0000 C CNN
+F 2 "" H 9000 3900 50  0001 C CNN
+F 3 "" H 9000 3900 50  0001 C CNN
+	1    9000 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D91EA02
+P 9250 3900
+F 0 "#PWR?" H 9250 3750 50  0001 C CNN
+F 1 "+3.3V" H 9265 4073 50  0000 C CNN
+F 2 "" H 9250 3900 50  0001 C CNN
+F 3 "" H 9250 3900 50  0001 C CNN
+	1    9250 3900
+	1    0    0    -1  
+$EndComp
+Text Notes 8250 700  0    50   ~ 0
+microSD
+Connection ~ 2000 3350
+Wire Wire Line
+	2000 3350 1700 3350
+Wire Wire Line
+	1700 3350 1700 5550
+Connection ~ 1700 3350
+$Comp
+L KUTKiCad_symbol:KRC_Conn_CAN J?
+U 1 1 5D97F500
+P 1200 900
+F 0 "J?" H 1700 900 50  0000 C CNN
+F 1 "KRC_Conn_CAN" H 1350 600 50  0000 C CNN
+F 2 "" H 1200 900 50  0001 C CNN
+F 3 "https://www.hirose.com/product/document?clcode=&productname=&series=DF33C&documenttype=Catalog&lang=ja&documentid=D51103_ja" H 1200 900 50  0001 C CNN
+F 4 "Digikey" H 1200 900 50  0001 C CNN "Agency"
+F 5 "DF33C-4DP-3.3DSA(24)" H 1200 900 50  0001 C CNN "MPN"
+	1    1200 900 
+	-1   0    0    -1  
+$EndComp
+Text Label 1750 6400 2    50   ~ 0
+CAN_H
+Text Label 1750 6500 2    50   ~ 0
+CAN_L
+Text Label 1550 950  2    50   ~ 0
+CAN_H
+Text Label 1550 1050 2    50   ~ 0
+CAN_L
+Wire Wire Line
+	1550 950  1300 950 
+Wire Wire Line
+	1300 1050 1550 1050
+$Comp
+L power:GND #PWR?
+U 1 1 5DA52B7A
+P 1300 750
+F 0 "#PWR?" H 1300 500 50  0001 C CNN
+F 1 "GND" V 1305 622 50  0000 R CNN
+F 2 "" H 1300 750 50  0001 C CNN
+F 3 "" H 1300 750 50  0001 C CNN
+	1    1300 750 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5DAA2B1E
+P 1700 700
+F 0 "#PWR?" H 1700 550 50  0001 C CNN
+F 1 "VCC" H 1717 873 50  0000 C CNN
+F 2 "" H 1700 700 50  0001 C CNN
+F 3 "" H 1700 700 50  0001 C CNN
+	1    1700 700 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 700  1700 850 
+Wire Wire Line
+	1700 850  1300 850 
+$Comp
+L power:VCC #PWR?
+U 1 1 5DAE3A9E
+P 3650 850
+F 0 "#PWR?" H 3650 700 50  0001 C CNN
+F 1 "VCC" H 3667 1023 50  0000 C CNN
+F 2 "" H 3650 850 50  0001 C CNN
+F 3 "" H 3650 850 50  0001 C CNN
+	1    3650 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 850  3650 900 
+$Comp
+L power:VCC #PWR?
+U 1 1 5DB04A5B
+P 1700 1850
+F 0 "#PWR?" H 1700 1700 50  0001 C CNN
+F 1 "VCC" H 1717 2023 50  0000 C CNN
+F 2 "" H 1700 1850 50  0001 C CNN
+F 3 "" H 1700 1850 50  0001 C CNN
+	1    1700 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 1850 1700 2000
+Connection ~ 1700 2000
+Wire Wire Line
+	1700 2000 2500 2000
+Text Label 3800 2600 2    50   ~ 0
+INA226_Alert
+Wire Wire Line
+	3300 2600 3800 2600
+Wire Notes Line
+	2100 500  2100 1300
+Text Notes 550  600  0    50   ~ 0
+Umbilical
+Wire Wire Line
+	3350 900  3100 900 
+Wire Notes Line
+	8100 500  8100 2500
+Wire Notes Line
+	8100 2500 11150 2500
+Wire Wire Line
+	6700 1650 6700 2150
+Wire Wire Line
+	6700 1150 6700 1450
+Wire Wire Line
+	6700 1450 6900 1450
+Connection ~ 6700 1450
+Wire Wire Line
+	6700 1450 6700 1650
+Wire Wire Line
+	7100 1450 7100 1700
+Wire Wire Line
+	6900 1450 6900 2250
+Connection ~ 6900 1450
+Wire Wire Line
+	6900 1450 7100 1450
+Text Label 4750 4600 0    50   ~ 0
+Power_Cutoff
+Wire Wire Line
+	4750 4600 5350 4600
+$Comp
+L Device:R R?
+U 1 1 5DBEEBB6
+P 1700 2450
+F 0 "R?" H 1750 2450 50  0000 L CNN
+F 1 "2m" V 1700 2400 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1630 2450 50  0001 C CNN
+F 3 "https://www.rohm.com/datasheet/PMR18EZPFV/pmr-e" H 1700 2450 50  0001 C CNN
+F 4 "Digikey" H 1700 2450 50  0001 C CNN "Agency"
+F 5 "PMR10EZPFV2L00" H 1700 2450 50  0001 C CNN "MPN"
+F 6 "2mΩ" H 1700 2450 50  0001 C CNN "Value"
+	1    1700 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 2000 1700 2250
+Wire Wire Line
+	1700 2600 1700 2650
+Wire Wire Line
+	1700 2250 1850 2250
+Wire Wire Line
+	1850 2250 1850 2350
+Connection ~ 1700 2250
+Wire Wire Line
+	1700 2250 1700 2300
+Wire Wire Line
+	1850 2550 1850 2650
+Wire Wire Line
+	1850 2650 1700 2650
+Connection ~ 1700 2650
+Wire Wire Line
+	1700 2650 1700 3350
+$Comp
+L KUTKiCad_symbol:NCP718ASN330T1G U?
+U 1 1 5DC30610
+P 2900 4400
+F 0 "U?" H 2900 4715 50  0000 C CNN
+F 1 "NCP718ASN330T1G" H 2900 4624 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-5" H 2800 4600 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/NCP718-D.PDF" H 2900 4700 50  0001 C CNN
+F 4 "Digikey" H 2900 4400 50  0001 C CNN "Agency"
+F 5 "NCP718ASN330T1G" H 2900 4400 50  0001 C CNN "MPN"
+	1    2900 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L KUTKiCad_symbol:NCP718ASN500T1G U?
+U 1 1 5DC3080F
+P 2900 3400
+F 0 "U?" H 2900 3715 50  0000 C CNN
+F 1 "NCP718ASN500T1G" H 2900 3624 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-5" H 2800 3600 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/NCP718-D.PDF" H 2900 3700 50  0001 C CNN
+F 4 "Digikey" H 2900 3400 50  0001 C CNN "Agency"
+F 5 "NCP718ASN500T1G" H 2900 3400 50  0001 C CNN "MPN"
+	1    2900 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 3350 2550 3350
+Wire Wire Line
+	2400 3450 2550 3450
+Wire Wire Line
+	2200 4350 2400 4350
+Wire Wire Line
+	2550 4450 2400 4450
+Wire Wire Line
+	2400 4450 2400 4350
+Connection ~ 2400 4350
+Wire Wire Line
+	2400 4350 2550 4350
+Wire Wire Line
+	3250 4350 3700 4350
+Wire Wire Line
+	3250 3350 3700 3350
+Wire Wire Line
+	2900 3650 2900 3750
+Wire Wire Line
+	2900 4650 2900 4850
+$Comp
+L Device:Crystal Y?
+U 1 1 5DCC8414
+P 9500 5100
+F 0 "Y?" H 9500 5368 50  0000 C CNN
+F 1 "24MHz" H 9500 5277 50  0000 C CNN
+F 2 "" H 9500 5100 50  0001 C CNN
+F 3 "https://www.murata.com/~/media/webrenewal/products/timingdevice/crystalu/flyers/vppt-hcrj078-d.ashx?la=en-us" H 9500 5100 50  0001 C CNN
+F 4 "Digikey" H 9500 5100 50  0001 C CNN "Agency"
+F 5 "XRCHA24M000F0A01R0" H 9500 5100 50  0001 C CNN "MPN"
+	1    9500 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L KUTKiCad_symbol:KRC_Conn_CAN J?
+U 1 1 5DCFB6D6
+P 1300 6350
+F 0 "J?" H 1800 6350 50  0000 C CNN
+F 1 "KRC_Conn_CAN" H 1450 6050 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal" H 1300 6350 50  0001 C CNN
+F 3 "http://download.siliconexpert.com/pdfs/2014/12/9/8/14/1/458/jst_/manual/29exh.pdf" H 1300 6350 50  0001 C CNN
+F 4 "chip1stop" H 1300 6350 50  0001 C CNN "Agency"
+F 5 "S4B-XH-A" H 1300 6350 50  0001 C CNN "MPN"
+	1    1300 6350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DCFC974
+P 2200 3550
+F 0 "C?" H 2250 3600 50  0000 L CNN
+F 1 "1u" H 2250 3500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2200 3550 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61E105KA12-01.pdf" H 2200 3550 50  0001 C CNN
+F 4 "Digikey" H 2200 3550 50  0001 C CNN "Agency"
+F 5 "GRM155R61E105KA12D" H 2200 3550 50  0001 C CNN "MPN"
+F 6 "1uF" H 2200 3550 50  0001 C CNN "Value"
+	1    2200 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DCFCC1A
+P 3700 3550
+F 0 "C?" H 3750 3600 50  0000 L CNN
+F 1 "1u" H 3750 3500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3700 3550 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61E105KA12-01.pdf" H 3700 3550 50  0001 C CNN
+F 4 "Digikey" H 3700 3550 50  0001 C CNN "Agency"
+F 5 "GRM155R61E105KA12D" H 3700 3550 50  0001 C CNN "MPN"
+F 6 "1uF" H 3700 3550 50  0001 C CNN "Value"
+	1    3700 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DCFCDE7
+P 2200 4550
+F 0 "C?" H 2250 4600 50  0000 L CNN
+F 1 "1u" H 2250 4500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2200 4550 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61E105KA12-01.pdf" H 2200 4550 50  0001 C CNN
+F 4 "Digikey" H 2200 4550 50  0001 C CNN "Agency"
+F 5 "GRM155R61E105KA12D" H 2200 4550 50  0001 C CNN "MPN"
+F 6 "1uF" H 2200 4550 50  0001 C CNN "Value"
+	1    2200 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DCFCE77
+P 3700 4550
+F 0 "C?" H 3750 4600 50  0000 L CNN
+F 1 "1u" H 3750 4500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3700 4550 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61E105KA12-01.pdf" H 3700 4550 50  0001 C CNN
+F 4 "Digikey" H 3700 4550 50  0001 C CNN "Agency"
+F 5 "GRM155R61E105KA12D" H 3700 4550 50  0001 C CNN "MPN"
+F 6 "1uF" H 3700 4550 50  0001 C CNN "Value"
+	1    3700 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DCFD1ED
+P 3100 1700
+F 0 "C?" H 3150 1750 50  0000 L CNN
+F 1 "0.1u" H 3150 1650 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3100 1700 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R62A104KE14-01.pdf" H 3100 1700 50  0001 C CNN
+F 4 "Digikey" H 3100 1700 50  0001 C CNN "Agency"
+F 5 "GRM155R62A104KE14D" H 3100 1700 50  0001 C CNN "MPN"
+F 6 "0.1uF" H 3100 1700 50  0001 C CNN "Value"
+	1    3100 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DCFD44A
+P 2600 5700
+F 0 "C?" H 2650 5750 50  0000 L CNN
+F 1 "0.1u" H 2650 5650 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2600 5700 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R62A104KE14-01.pdf" H 2600 5700 50  0001 C CNN
+F 4 "Digikey" H 2600 5700 50  0001 C CNN "Agency"
+F 5 "GRM155R62A104KE14D" H 2600 5700 50  0001 C CNN "MPN"
+F 6 "0.1uF" H 2600 5700 50  0001 C CNN "Value"
+	1    2600 5700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DCFD85D
+P 3200 5700
+F 0 "C?" H 3250 5750 50  0000 L CNN
+F 1 "0.1u" H 3250 5650 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3200 5700 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R62A104KE14-01.pdf" H 3200 5700 50  0001 C CNN
+F 4 "Digikey" H 3200 5700 50  0001 C CNN "Agency"
+F 5 "GRM155R62A104KE14D" H 3200 5700 50  0001 C CNN "MPN"
+F 6 "0.1uF" H 3200 5700 50  0001 C CNN "Value"
+	1    3200 5700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DCFDA1F
+P 5450 1300
+F 0 "C?" H 5500 1350 50  0000 L CNN
+F 1 "0.1u" H 5500 1250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5450 1300 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R62A104KE14-01.pdf" H 5450 1300 50  0001 C CNN
+F 4 "Digikey" H 5450 1300 50  0001 C CNN "Agency"
+F 5 "GRM155R62A104KE14D" H 5450 1300 50  0001 C CNN "MPN"
+F 6 "0.1uF" H 5450 1300 50  0001 C CNN "Value"
+	1    5450 1300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DCFDE6C
+P 5800 1300
+F 0 "C?" H 5850 1350 50  0000 L CNN
+F 1 "0.1u" H 5850 1250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5800 1300 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R62A104KE14-01.pdf" H 5800 1300 50  0001 C CNN
+F 4 "Digikey" H 5800 1300 50  0001 C CNN "Agency"
+F 5 "GRM155R62A104KE14D" H 5800 1300 50  0001 C CNN "MPN"
+F 6 "0.1uF" H 5800 1300 50  0001 C CNN "Value"
+	1    5800 1300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DCFDEF0
+P 6150 1300
+F 0 "C?" H 6200 1350 50  0000 L CNN
+F 1 "0.1u" H 6200 1250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6150 1300 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R62A104KE14-01.pdf" H 6150 1300 50  0001 C CNN
+F 4 "Digikey" H 6150 1300 50  0001 C CNN "Agency"
+F 5 "GRM155R62A104KE14D" H 6150 1300 50  0001 C CNN "MPN"
+F 6 "0.1uF" H 6150 1300 50  0001 C CNN "Value"
+	1    6150 1300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DCFDF76
+P 6500 1300
+F 0 "C?" H 6550 1350 50  0000 L CNN
+F 1 "0.1u" H 6550 1250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6500 1300 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R62A104KE14-01.pdf" H 6500 1300 50  0001 C CNN
+F 4 "Digikey" H 6500 1300 50  0001 C CNN "Agency"
+F 5 "GRM155R62A104KE14D" H 6500 1300 50  0001 C CNN "MPN"
+F 6 "0.1uF" H 6500 1300 50  0001 C CNN "Value"
+	1    6500 1300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DCFE065
+P 5800 1800
+F 0 "C?" H 5850 1850 50  0000 L CNN
+F 1 "0.1u" H 5850 1750 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5800 1800 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R62A104KE14-01.pdf" H 5800 1800 50  0001 C CNN
+F 4 "Digikey" H 5800 1800 50  0001 C CNN "Agency"
+F 5 "GRM155R62A104KE14D" H 5800 1800 50  0001 C CNN "MPN"
+F 6 "0.1uF" H 5800 1800 50  0001 C CNN "Value"
+	1    5800 1800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DCFE0F1
+P 6150 1800
+F 0 "C?" H 6200 1850 50  0000 L CNN
+F 1 "0.1u" H 6200 1750 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6150 1800 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R62A104KE14-01.pdf" H 6150 1800 50  0001 C CNN
+F 4 "Digikey" H 6150 1800 50  0001 C CNN "Agency"
+F 5 "GRM155R62A104KE14D" H 6150 1800 50  0001 C CNN "MPN"
+F 6 "0.1uF" H 6150 1800 50  0001 C CNN "Value"
+	1    6150 1800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DCFE279
+P 6500 1800
+F 0 "C?" H 6550 1850 50  0000 L CNN
+F 1 "1u" H 6550 1750 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6500 1800 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61E105KA12-01.pdf" H 6500 1800 50  0001 C CNN
+F 4 "Digikey" H 6500 1800 50  0001 C CNN "Agency"
+F 5 "GRM155R61E105KA12D" H 6500 1800 50  0001 C CNN "MPN"
+F 6 "1uF" H 6500 1800 50  0001 C CNN "Value"
+	1    6500 1800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DCFE461
+P 7100 1800
+F 0 "C?" H 7150 1850 50  0000 L CNN
+F 1 "0.1u" H 7150 1750 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7100 1800 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R62A104KE14-01.pdf" H 7100 1800 50  0001 C CNN
+F 4 "Digikey" H 7100 1800 50  0001 C CNN "Agency"
+F 5 "GRM155R62A104KE14D" H 7100 1800 50  0001 C CNN "MPN"
+F 6 "0.1uF" H 7100 1800 50  0001 C CNN "Value"
+	1    7100 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DCFE5F2
+P 7600 1950
+F 0 "C?" H 7650 2000 50  0000 L CNN
+F 1 "1u" H 7650 1900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7600 1950 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61E105KA12-01.pdf" H 7600 1950 50  0001 C CNN
+F 4 "Digikey" H 7600 1950 50  0001 C CNN "Agency"
+F 5 "GRM155R61E105KA12D" H 7600 1950 50  0001 C CNN "MPN"
+F 6 "1uF" H 7600 1950 50  0001 C CNN "Value"
+	1    7600 1950
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DCFE6B9
+P 7600 2100
+F 0 "C?" H 7650 2150 50  0000 L CNN
+F 1 "1u" H 7650 2050 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7600 2100 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61E105KA12-01.pdf" H 7600 2100 50  0001 C CNN
+F 4 "Digikey" H 7600 2100 50  0001 C CNN "Agency"
+F 5 "GRM155R61E105KA12D" H 7600 2100 50  0001 C CNN "MPN"
+F 6 "1uF" H 7600 2100 50  0001 C CNN "Value"
+	1    7600 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DD0EDBE
+P 8550 2050
+F 0 "C?" H 8600 2100 50  0000 L CNN
+F 1 "1u" H 8600 2000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8550 2050 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61E105KA12-01.pdf" H 8550 2050 50  0001 C CNN
+F 4 "Digikey" H 8550 2050 50  0001 C CNN "Agency"
+F 5 "GRM155R61E105KA12D" H 8550 2050 50  0001 C CNN "MPN"
+F 6 "1uF" H 8550 2050 50  0001 C CNN "Value"
+	1    8550 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DD2F72C
+P 8800 2050
+F 0 "C?" H 8850 2100 50  0000 L CNN
+F 1 "0.1u" H 8850 2000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8800 2050 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R62A104KE14-01.pdf" H 8800 2050 50  0001 C CNN
+F 4 "Digikey" H 8800 2050 50  0001 C CNN "Agency"
+F 5 "GRM155R62A104KE14D" H 8800 2050 50  0001 C CNN "MPN"
+F 6 "0.1uF" H 8800 2050 50  0001 C CNN "Value"
+	1    8800 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 5DD308E3
+P 3500 900
+F 0 "D?" H 3500 800 50  0000 C CNN
+F 1 "NTS1545" H 3450 1000 50  0000 C CNN
+F 2 "" H 3500 900 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/NTS1545MFS-D.PDF" H 3500 900 50  0001 C CNN
+F 4 "Digikey" H 3500 900 50  0001 C CNN "agency"
+F 5 "NTS1545MFST1G" H 3500 900 50  0001 C CNN "MPN"
+	1    3500 900 
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
