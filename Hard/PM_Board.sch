@@ -662,20 +662,6 @@ $EndComp
 Wire Wire Line
 	3700 4350 3700 4500
 Connection ~ 3700 4500
-$Comp
-L Connector:Micro_SD_Card_Det_Hirose_DM3AT J1
-U 1 1 5D9DC367
-P 10250 1700
-F 0 "J1" H 10200 2517 50  0000 C CNN
-F 1 "Micro_SD_Card_Det_Hirose_DM3AT" H 10200 2426 50  0000 C CNN
-F 2 "" H 12300 2400 50  0001 C CNN
-F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1" H 10250 1800 50  0001 C CNN
-F 4 "秋月電子" H 10250 1700 50  0001 C CNN "Agency"
-F 5 "DM3AT-SF-PEJM5" H 10250 1700 50  0001 C CNN "MPN"
-F 6 "http://akizukidenshi.com/catalog/g/gC-02395/" H 10250 1700 50  0001 C CNN "Link"
-	1    10250 1700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9350 2000 9000 2000
 NoConn ~ 9350 2100
@@ -1174,7 +1160,7 @@ U 1 1 5D97F500
 P 1050 1100
 F 0 "J6" H 1550 1100 50  0000 C CNN
 F 1 "KRC_Conn_CAN" H 1200 800 50  0000 C CNN
-F 2 "KUTKiCad_footprint:Hirose_DF33-DF33C-4DP-3.3DSA_2x02_P3.3mm_Vertical" H 1050 1100 50  0001 C CNN
+F 2 "KUTKiCad_footprint:Hirose_DF33-DF33C-4DP-3.3DSA_2x02_P3.3_Vertical" H 1050 1100 50  0001 C CNN
 F 3 "https://www.hirose.com/product/document?clcode=&productname=&series=DF33C&documenttype=Catalog&lang=ja&documentid=D51103_ja" H 1050 1100 50  0001 C CNN
 F 4 "Digikey" H 1050 1100 50  0001 C CNN "Agency"
 F 5 "DF33C-4DP-3.3DSA(24)" H 1050 1100 50  0001 C CNN "MPN"
@@ -1363,7 +1349,7 @@ U 1 1 5DCFB6D6
 P 1300 6350
 F 0 "J5" H 1800 6350 50  0000 C CNN
 F 1 "KRC_Conn_CAN" H 1450 6050 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal" H 1300 6350 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_S4B-XH-A-1_1x04_P2.50mm_Horizontal" H 1300 6350 50  0001 C CNN
 F 3 "http://download.siliconexpert.com/pdfs/2014/12/9/8/14/1/458/jst_/manual/29exh.pdf" H 1300 6350 50  0001 C CNN
 F 4 "Digikey" H 1300 6350 50  0001 C CNN "Agency"
 F 5 "S4B-XH-A" H 1300 6350 50  0001 C CNN "MPN"
@@ -2134,6 +2120,20 @@ F 1 "+3.3V" H 1215 2873 50  0000 C CNN
 F 2 "" H 1200 2700 50  0001 C CNN
 F 3 "" H 1200 2700 50  0001 C CNN
 	1    1200 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Micro_SD_Card_Det_Hirose_DM3AT J1
+U 1 1 5D9DC367
+P 10250 1700
+F 0 "J1" H 10200 2517 50  0000 C CNN
+F 1 "Micro_SD_Card_Det_Hirose_DM3AT" H 10200 2426 50  0000 C CNN
+F 2 "Connector_Card:microSD_HC_Hirose_DM3AT-SF-PEJM5" H 12300 2400 50  0001 C CNN
+F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1" H 10250 1800 50  0001 C CNN
+F 4 "秋月電子" H 10250 1700 50  0001 C CNN "Agency"
+F 5 "DM3AT-SF-PEJM5" H 10250 1700 50  0001 C CNN "MPN"
+F 6 "http://akizukidenshi.com/catalog/g/gC-02395/" H 10250 1700 50  0001 C CNN "Link"
+	1    10250 1700
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
