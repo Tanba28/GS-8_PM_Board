@@ -1103,7 +1103,7 @@ INA226_SDA
 Text Label 8650 4300 2    50   ~ 0
 INA226_SCL
 Text Label 8650 4400 2    50   ~ 0
-INA226_Aleart
+INA226_Alert
 Wire Wire Line
 	8050 4200 8750 4200
 Wire Wire Line
