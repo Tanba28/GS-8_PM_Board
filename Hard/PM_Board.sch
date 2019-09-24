@@ -967,7 +967,7 @@ Wire Wire Line
 	1400 6800 1500 6800
 Wire Wire Line
 	1400 6050 1500 6050
-Text Label 3650 5650 2    50   ~ 0
+Text Label 3850 5650 2    50   ~ 0
 Power_Cutoff
 Text Label 3650 6900 2    50   ~ 0
 CAN_STB
@@ -1002,9 +1002,9 @@ Text Notes 600  1600 0    50   ~ 0
 Current and Power Monitor(Hi-Side)
 Text Notes 600  3350 0    50   ~ 0
 System Power Regulator
-Text Notes 550  5350 0    50   ~ 0
+Text Notes 750  5350 0    50   ~ 0
 CAN Bus
-Text Notes 3150 5500 0    50   ~ 0
+Text Notes 3350 5500 0    50   ~ 0
 Power Cutoff
 Text Label 4850 5450 0    50   ~ 0
 CAN_TXD
@@ -1883,16 +1883,16 @@ $EndComp
 $Comp
 L Device:R_Small R13
 U 1 1 5DEF48DF
-P 1850 5450
-F 0 "R13" H 1909 5496 50  0000 L CNN
-F 1 "1k" H 1909 5405 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 1850 5450 50  0001 C CNN
-F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 1850 5450 50  0001 C CNN
-F 4 "Digikey" H 1850 5450 50  0001 C CNN "Agency"
-F 5 "ERJ-2GEJ102X" H 1850 5450 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.jp/product-detail/ja/panasonic-electronic-components/ERJ-2GEJ102X/P1.0KJCT-ND/146897" H 1850 5450 50  0001 C CNN "Link"
-F 7 "1kΩ" H 1850 5450 50  0001 C CNN "Value"
-	1    1850 5450
+P 2050 5450
+F 0 "R13" H 2109 5496 50  0000 L CNN
+F 1 "1k" H 2109 5405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2050 5450 50  0001 C CNN
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 2050 5450 50  0001 C CNN
+F 4 "Digikey" H 2050 5450 50  0001 C CNN "Agency"
+F 5 "ERJ-2GEJ102X" H 2050 5450 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.jp/product-detail/ja/panasonic-electronic-components/ERJ-2GEJ102X/P1.0KJCT-ND/146897" H 2050 5450 50  0001 C CNN "Link"
+F 7 "1kΩ" H 2050 5450 50  0001 C CNN "Value"
+	1    2050 5450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2093,94 +2093,92 @@ Wire Wire Line
 $Comp
 L KUTKiCad_symbol:SSM6J501NU Q1
 U 1 1 5D9715A0
-P 1500 5650
-F 0 "Q1" H 1395 5696 50  0000 R CNN
-F 1 "SSM6J501NU" H 1395 5605 50  0000 R CNN
-F 2 "KUTKiCad_footprint:UDFN6B" H 1600 5350 50  0001 C CNN
-F 3 "https://toshiba.semicon-storage.com/jp/product/mosfet/detail.SSM6J501NU.html" H 1600 5350 50  0001 C CNN
-F 4 "Digikey" H 0   0   50  0001 C CNN "Agency"
-F 5 "https://www.digikey.jp/product-detail/ja/toshiba-semiconductor-and-storage/SSM6J501NULF/SSM6J501NULFCT-ND/3191349" H 0   0   50  0001 C CNN "Link"
-F 6 "SSM6J501NU,LF" H 0   0   50  0001 C CNN "MPN"
-	1    1500 5650
+P 1700 5650
+F 0 "Q1" H 1595 5696 50  0000 R CNN
+F 1 "SSM6J501NU" H 1595 5605 50  0000 R CNN
+F 2 "KUTKiCad_footprint:UDFN6B" H 1800 5350 50  0001 C CNN
+F 3 "https://toshiba.semicon-storage.com/jp/product/mosfet/detail.SSM6J501NU.html" H 1800 5350 50  0001 C CNN
+F 4 "Digikey" H 200 0   50  0001 C CNN "Agency"
+F 5 "https://www.digikey.jp/product-detail/ja/toshiba-semiconductor-and-storage/SSM6J501NULF/SSM6J501NULFCT-ND/3191349" H 200 0   50  0001 C CNN "Link"
+F 6 "SSM6J501NU,LF" H 200 0   50  0001 C CNN "MPN"
+	1    1700 5650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1500 6800 1500 7400
 Connection ~ 1500 6800
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0135
 U 1 1 5DA49324
 P 1500 7400
-F 0 "#PWR?" H 1500 7150 50  0001 C CNN
+F 0 "#PWR0135" H 1500 7150 50  0001 C CNN
 F 1 "GND" H 1505 7227 50  0000 C CNN
 F 2 "" H 1500 7400 50  0001 C CNN
 F 3 "" H 1500 7400 50  0001 C CNN
 	1    1500 7400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1500 5850 1500 6050
-Connection ~ 1500 6050
 Wire Notes Line
-	800  5400 3700 5400
+	1000 5400 3900 5400
 Wire Notes Line
-	3700 5400 3700 5850
+	3900 5400 3900 5850
 Wire Notes Line
-	3700 5850 800  5850
+	3900 5850 1000 5850
 Wire Notes Line
-	800  5400 800  5850
+	1000 5400 1000 5850
 Wire Wire Line
-	1800 5650 1850 5650
+	2000 5650 2050 5650
 Wire Wire Line
-	1500 5300 1850 5300
-Wire Wire Line
-	1850 5300 1850 5350
-Connection ~ 1500 5300
-Wire Wire Line
-	1500 5300 1500 5450
-Wire Wire Line
-	1850 5550 1850 5650
-Wire Wire Line
-	1500 3500 1500 5300
-Wire Wire Line
-	1500 3500 1700 3500
-Connection ~ 1700 3500
+	2050 5550 2050 5650
 Wire Wire Line
 	1700 3500 2000 3500
 $Comp
 L Device:Q_NMOS_GSD Q2
 U 1 1 5DB5D4F9
-P 2450 5650
-F 0 "Q2" H 2654 5696 50  0000 L CNN
-F 1 "2n7002" H 2654 5605 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 2650 5750 50  0001 C CNN
-F 3 "http://akizukidenshi.com/download/2n7002.pdf" H 2450 5650 50  0001 C CNN
-F 4 "秋月電子" H 0   0   50  0001 C CNN "Agency"
-F 5 "http://akizukidenshi.com/catalog/g/gI-03919/" H 0   0   50  0001 C CNN "Link"
-F 6 "2N7002" H 0   0   50  0001 C CNN "MPN"
-	1    2450 5650
+P 2650 5650
+F 0 "Q2" H 2854 5696 50  0000 L CNN
+F 1 "2n7002" H 2854 5605 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2850 5750 50  0001 C CNN
+F 3 "http://akizukidenshi.com/download/2n7002.pdf" H 2650 5650 50  0001 C CNN
+F 4 "秋月電子" H 200 0   50  0001 C CNN "Agency"
+F 5 "http://akizukidenshi.com/catalog/g/gI-03919/" H 200 0   50  0001 C CNN "Link"
+F 6 "2N7002" H 200 0   50  0001 C CNN "MPN"
+	1    2650 5650
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	1850 5650 2100 5650
+	2050 5650 2300 5650
 Wire Wire Line
-	2100 5650 2100 5400
+	2300 5650 2300 5400
 Wire Wire Line
-	2100 5400 2350 5400
-Connection ~ 1850 5650
+	2300 5400 2550 5400
+Connection ~ 2050 5650
 Wire Wire Line
-	2350 5400 2350 5450
+	2550 5400 2550 5450
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0136
 U 1 1 5DC40C83
-P 2350 5850
-F 0 "#PWR?" H 2350 5600 50  0001 C CNN
-F 1 "GND" H 2355 5677 50  0000 C CNN
-F 2 "" H 2350 5850 50  0001 C CNN
-F 3 "" H 2350 5850 50  0001 C CNN
-	1    2350 5850
+P 2550 5850
+F 0 "#PWR0136" H 2550 5600 50  0001 C CNN
+F 1 "GND" H 2555 5677 50  0000 C CNN
+F 2 "" H 2550 5850 50  0001 C CNN
+F 3 "" H 2550 5850 50  0001 C CNN
+	1    2550 5850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2650 5650 3650 5650
+	2850 5650 3850 5650
+Wire Wire Line
+	1700 3500 1700 5150
+Connection ~ 1700 3500
+Wire Wire Line
+	1700 5850 1700 6150
+Connection ~ 1700 6150
+Wire Wire Line
+	2050 5150 1700 5150
+Wire Wire Line
+	2050 5150 2050 5350
+Connection ~ 1700 5150
+Wire Wire Line
+	1700 5150 1700 5450
 $EndSCHEMATC
