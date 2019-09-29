@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:PM_Board-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -851,7 +851,7 @@ L power:GND #PWR0133
 U 1 1 5DBD5001
 P 2900 2950
 F 0 "#PWR0133" H 2900 2700 50  0001 C CNN
-F 1 "GND" H 2905 2777 50  0000 C CNN
+F 1 "GND" H 3050 2900 50  0000 C CNN
 F 2 "" H 2900 2950 50  0001 C CNN
 F 3 "" H 2900 2950 50  0001 C CNN
 	1    2900 2950
@@ -1204,8 +1204,8 @@ $Comp
 L KUTKiCad_symbol:NCP718ASN330T1G VR2
 U 1 1 5DC30610
 P 2900 4550
-F 0 "VR2" H 2900 4865 50  0000 C CNN
-F 1 "NCP718ASN330T1G" H 2900 4774 50  0000 C CNN
+F 0 "VR2" H 2900 4650 50  0000 C CNN
+F 1 "NCP718ASN330T1G" H 3300 4350 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TSOT-23-5" H 2800 4750 50  0001 C CNN
 F 3 "https://www.onsemi.com/pub/Collateral/NCP718-D.PDF" H 2900 4850 50  0001 C CNN
 F 4 "Digikey" H 2900 4550 50  0001 C CNN "Agency"
@@ -1218,8 +1218,8 @@ $Comp
 L KUTKiCad_symbol:NCP718ASN500T1G VR1
 U 1 1 5DC3080F
 P 2900 3550
-F 0 "VR1" H 2900 3865 50  0000 C CNN
-F 1 "NCP718ASN500T1G" H 2900 3774 50  0000 C CNN
+F 0 "VR1" H 2900 3650 50  0000 C CNN
+F 1 "NCP718ASN500T1G" H 3300 3350 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TSOT-23-5" H 2800 3750 50  0001 C CNN
 F 3 "https://www.onsemi.com/pub/Collateral/NCP718-D.PDF" H 2900 3850 50  0001 C CNN
 F 4 "Digikey" H 2900 3550 50  0001 C CNN "Agency"
@@ -1229,7 +1229,7 @@ F 6 "https://www.digikey.jp/product-detail/ja/on-semiconductor/NCP718ASN500T1G/N
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2400 3500 2550 3500
+	2400 3500 2450 3500
 Wire Wire Line
 	2400 3600 2550 3600
 Wire Wire Line
@@ -1240,11 +1240,11 @@ Wire Wire Line
 	2400 4600 2400 4500
 Connection ~ 2400 4500
 Wire Wire Line
-	2400 4500 2550 4500
+	2400 4500 2450 4500
 Wire Wire Line
-	3250 4500 3700 4500
+	3250 4500 3350 4500
 Wire Wire Line
-	3250 3500 3700 3500
+	3250 3500 3350 3500
 Wire Wire Line
 	2900 3800 2900 3900
 Wire Wire Line
@@ -2208,4 +2208,87 @@ Wire Wire Line
 	5050 4200 5350 4200
 Wire Wire Line
 	5050 4100 5350 4100
+$Comp
+L Device:D_Schottky_Small D6
+U 1 1 5D91C8E7
+P 2900 3350
+F 0 "D6" H 2900 3555 50  0000 C CNN
+F 1 "RSX101VA" H 2900 3464 50  0000 C CNN
+F 2 "Diode_SMD:D_TUMD2" V 2900 3350 50  0001 C CNN
+F 3 "http://akizukidenshi.com/download/ds/rohm/rsx101vam30-j.pdf" V 2900 3350 50  0001 C CNN
+F 4 "秋月電子" H 2900 3350 50  0001 C CNN "Agency"
+F 5 "http://akizukidenshi.com/catalog/g/gI-05951/" H 2900 3350 50  0001 C CNN "Link"
+F 6 "RSX101VAM-30TR" H 2900 3350 50  0001 C CNN "MPN"
+	1    2900 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 3350 2450 3350
+Wire Wire Line
+	2450 3350 2450 3500
+Connection ~ 2450 3500
+Wire Wire Line
+	2450 3500 2550 3500
+Wire Wire Line
+	3000 3350 3350 3350
+Wire Wire Line
+	3350 3350 3350 3500
+Connection ~ 3350 3500
+Wire Wire Line
+	3350 3500 3700 3500
+$Comp
+L Device:D_Schottky_Small D7
+U 1 1 5D94B0D3
+P 2900 4350
+F 0 "D7" H 2900 4555 50  0000 C CNN
+F 1 "RSX101VA" H 2900 4464 50  0000 C CNN
+F 2 "Diode_SMD:D_TUMD2" V 2900 4350 50  0001 C CNN
+F 3 "http://akizukidenshi.com/download/ds/rohm/rsx101vam30-j.pdf" V 2900 4350 50  0001 C CNN
+F 4 "秋月電子" H 2900 4350 50  0001 C CNN "Agency"
+F 5 "http://akizukidenshi.com/catalog/g/gI-05951/" H 2900 4350 50  0001 C CNN "Link"
+F 6 "RSX101VAM-30TR" H 2900 4350 50  0001 C CNN "MPN"
+	1    2900 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 4350 2450 4350
+Wire Wire Line
+	2450 4350 2450 4500
+Connection ~ 2450 4500
+Wire Wire Line
+	2450 4500 2550 4500
+Wire Wire Line
+	3000 4350 3350 4350
+Wire Wire Line
+	3350 4350 3350 4500
+Connection ~ 3350 4500
+Wire Wire Line
+	3350 4500 3700 4500
+NoConn ~ 5350 3200
+NoConn ~ 5350 3300
+NoConn ~ 5350 3400
+NoConn ~ 5350 3500
+NoConn ~ 5350 4500
+NoConn ~ 5350 4600
+NoConn ~ 5350 4850
+NoConn ~ 5350 4950
+NoConn ~ 5350 5050
+NoConn ~ 5350 5150
+NoConn ~ 5350 5250
+NoConn ~ 8050 2800
+NoConn ~ 8050 2900
+NoConn ~ 8050 3000
+NoConn ~ 8050 3100
+NoConn ~ 8050 3200
+NoConn ~ 8050 3300
+NoConn ~ 8050 3700
+NoConn ~ 8050 3800
+NoConn ~ 8050 3900
+NoConn ~ 8050 4000
+NoConn ~ 8050 4100
+NoConn ~ 8050 4200
+NoConn ~ 8050 4300
+NoConn ~ 8050 4400
+NoConn ~ 8050 5200
+NoConn ~ 8050 5300
 $EndSCHEMATC
