@@ -911,12 +911,12 @@ NoConn ~ 1400 6350
 $Comp
 L power:GND #PWR0134
 U 1 1 5DCE33BD
-P 3900 1150
-F 0 "#PWR0134" H 3900 900 50  0001 C CNN
-F 1 "GND" H 3905 977 50  0000 C CNN
-F 2 "" H 3900 1150 50  0001 C CNN
-F 3 "" H 3900 1150 50  0001 C CNN
-	1    3900 1150
+P 3450 1150
+F 0 "#PWR0134" H 3450 900 50  0001 C CNN
+F 1 "GND" H 3455 977 50  0000 C CNN
+F 2 "" H 3450 1150 50  0001 C CNN
+F 3 "" H 3450 1150 50  0001 C CNN
+	1    3450 1150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -996,7 +996,7 @@ Text Notes 2800 600  0    50   ~ 0
 Power Input(Li-Po 2S 7.4V)
 Text Notes 600  1600 0    50   ~ 0
 Current and Power Monitor(Hi-Side)
-Text Notes 600  3350 0    50   ~ 0
+Text Notes 500  3200 0    50   ~ 0
 System Power Regulator
 Text Notes 750  5350 0    50   ~ 0
 CAN Bus
@@ -1108,30 +1108,6 @@ F 2 "" H 1150 1250 50  0001 C CNN
 F 3 "" H 1150 1250 50  0001 C CNN
 	1    1150 1250
 	0    -1   1    0   
-$EndComp
-$Comp
-L power:VCC #PWR0141
-U 1 1 5DAE3A9E
-P 3900 900
-F 0 "#PWR0141" H 3900 750 50  0001 C CNN
-F 1 "VCC" H 3917 1073 50  0000 C CNN
-F 2 "" H 3900 900 50  0001 C CNN
-F 3 "" H 3900 900 50  0001 C CNN
-	1    3900 900 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3900 900  3900 950 
-$Comp
-L power:VCC #PWR0142
-U 1 1 5DB04A5B
-P 1700 2000
-F 0 "#PWR0142" H 1700 1850 50  0001 C CNN
-F 1 "VCC" H 1717 2173 50  0000 C CNN
-F 2 "" H 1700 2000 50  0001 C CNN
-F 3 "" H 1700 2000 50  0001 C CNN
-	1    1700 2000
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1700 2000 1700 2150
@@ -1565,16 +1541,16 @@ $EndComp
 $Comp
 L Device:D_Schottky_Small D4
 U 1 1 5DD308E3
-P 3650 950
-F 0 "D4" H 3650 800 50  0000 C TNN
-F 1 "NTS1545" H 3650 900 50  0000 C TNN
-F 2 "KUTKiCad_footprint:DFN5_5x6_1.27P" H 3650 950 50  0001 C CNN
-F 3 "https://www.onsemi.com/pub/Collateral/NTS1545MFS-D.PDF" H 3650 950 50  0001 C CNN
-F 4 "Digikey" H 3650 950 50  0001 C CNN "Agency"
-F 5 "NTS1545MFST1G" H 3650 950 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.jp/product-detail/ja/on-semiconductor/NTS1545MFST1G/NTS1545MFST1GOSCT-ND/5022596" H 3650 950 50  0001 C CNN "Link"
-	1    3650 950 
-	-1   0    0    1   
+P 1700 3300
+F 0 "D4" H 1700 3150 50  0000 C TNN
+F 1 "NTS1545" H 1700 3250 50  0000 C TNN
+F 2 "KUTKiCad_footprint:DFN5_5x6_1.27P" H 1700 3300 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/NTS1545MFS-D.PDF" H 1700 3300 50  0001 C CNN
+F 4 "Digikey" H 1700 3300 50  0001 C CNN "Agency"
+F 5 "NTS1545MFST1G" H 1700 3300 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.jp/product-detail/ja/on-semiconductor/NTS1545MFST1G/NTS1545MFST1GOSCT-ND/5022596" H 1700 3300 50  0001 C CNN "Link"
+	1    1700 3300
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R_Small R1
@@ -1644,14 +1620,9 @@ Wire Wire Line
 Wire Wire Line
 	8750 3500 8750 3600
 Wire Wire Line
-	1700 2800 1700 3500
-Connection ~ 1700 2800
-Wire Wire Line
 	1400 950  1150 950 
 Wire Wire Line
-	3750 950  3900 950 
-Wire Wire Line
-	3900 1150 3900 1100
+	3450 1150 3450 1100
 $Comp
 L Device:LED_Small D3
 U 1 1 5DCD6F3F
@@ -1734,10 +1705,6 @@ Wire Wire Line
 Connection ~ 2350 1150
 Wire Wire Line
 	2350 1150 2350 1200
-Wire Wire Line
-	3550 950  3400 950 
-Wire Wire Line
-	3900 1100 3400 1100
 $Comp
 L Device:R_Small R15
 U 1 1 5DECB132
@@ -2147,9 +2114,6 @@ $EndComp
 Wire Wire Line
 	2850 5650 3250 5650
 Wire Wire Line
-	1700 3500 1700 5150
-Connection ~ 1700 3500
-Wire Wire Line
 	1700 5850 1700 6150
 Connection ~ 1700 6150
 Wire Wire Line
@@ -2291,4 +2255,58 @@ NoConn ~ 8050 4300
 NoConn ~ 8050 4400
 NoConn ~ 8050 5200
 NoConn ~ 8050 5300
+$Comp
+L power:+BATT #PWR0141
+U 1 1 5DC0E776
+P 3450 900
+F 0 "#PWR0141" H 3450 750 50  0001 C CNN
+F 1 "+BATT" H 3465 1073 50  0000 C CNN
+F 2 "" H 3450 900 50  0001 C CNN
+F 3 "" H 3450 900 50  0001 C CNN
+	1    3450 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 900  3450 950 
+Wire Wire Line
+	3450 950  3400 950 
+$Comp
+L power:+BATT #PWR0142
+U 1 1 5DC26E97
+P 1700 2000
+F 0 "#PWR0142" H 1700 1850 50  0001 C CNN
+F 1 "+BATT" H 1715 2173 50  0000 C CNN
+F 2 "" H 1700 2000 50  0001 C CNN
+F 3 "" H 1700 2000 50  0001 C CNN
+	1    1700 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 2800 1700 3200
+Connection ~ 1700 2800
+Wire Wire Line
+	1700 3400 1700 3450
+Connection ~ 1700 3500
+Wire Wire Line
+	3450 1100 3400 1100
+Wire Wire Line
+	1700 3500 1700 5150
+$Comp
+L power:VCC #PWR0151
+U 1 1 5DD8F5B1
+P 1550 3350
+F 0 "#PWR0151" H 1550 3200 50  0001 C CNN
+F 1 "VCC" H 1567 3523 50  0000 C CNN
+F 2 "" H 1550 3350 50  0001 C CNN
+F 3 "" H 1550 3350 50  0001 C CNN
+	1    1550 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 3350 1550 3450
+Wire Wire Line
+	1550 3450 1700 3450
+Connection ~ 1700 3450
+Wire Wire Line
+	1700 3450 1700 3500
 $EndSCHEMATC
