@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:PM_Board-cache
-EELAYER 30 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -1074,39 +1074,25 @@ $EndComp
 Text Notes 8250 700  0    50   ~ 0
 microSD
 Connection ~ 2000 3500
-$Comp
-L KUTKiCad_symbol:KRC_Conn_CAN J6
-U 1 1 5D97F500
-P 1050 1100
-F 0 "J6" H 1550 1100 50  0000 C CNN
-F 1 "KRC_Conn_CAN" H 1200 800 50  0000 C CNN
-F 2 "KUTKiCad_footprint:Hirose_DF33-DF33C-4DP-3.3DSA_2x02_P3.3_Vertical" H 1050 1100 50  0001 C CNN
-F 3 "https://www.hirose.com/product/document?clcode=&productname=&series=DF33C&documenttype=Catalog&lang=ja&documentid=D51103_ja" H 1050 1100 50  0001 C CNN
-F 4 "Digikey" H 1050 1100 50  0001 C CNN "Agency"
-F 5 "DF33C-4DP-3.3DSA(24)" H 1050 1100 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.jp/products/ja?keywords=DF33C-4DP-3.3DSA(24)" H 0   0   50  0001 C CNN "Link"
-	1    1050 1100
-	-1   0    0    1   
-$EndComp
 Text Label 1750 7000 2    50   ~ 0
 CAN_H
 Text Label 1750 7100 2    50   ~ 0
 CAN_L
-Text Label 1400 1050 2    50   ~ 0
-CAN_H
 Text Label 1400 950  2    50   ~ 0
+CAN_H
+Text Label 1400 850  2    50   ~ 0
 CAN_L
 Wire Wire Line
-	1400 1050 1150 1050
+	1400 950  1150 950 
 $Comp
 L power:GND #PWR0140
 U 1 1 5DA52B7A
-P 1150 1250
-F 0 "#PWR0140" H 1150 1000 50  0001 C CNN
-F 1 "GND" V 1155 1122 50  0000 R CNN
-F 2 "" H 1150 1250 50  0001 C CNN
-F 3 "" H 1150 1250 50  0001 C CNN
-	1    1150 1250
+P 1250 1350
+F 0 "#PWR0140" H 1250 1100 50  0001 C CNN
+F 1 "GND" V 1255 1222 50  0000 R CNN
+F 2 "" H 1250 1350 50  0001 C CNN
+F 3 "" H 1250 1350 50  0001 C CNN
+	1    1250 1350
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
@@ -1620,7 +1606,7 @@ Wire Wire Line
 Wire Wire Line
 	8750 3500 8750 3600
 Wire Wire Line
-	1400 950  1150 950 
+	1400 850  1150 850 
 Wire Wire Line
 	3450 1150 3450 1100
 $Comp
@@ -2034,7 +2020,7 @@ Wire Wire Line
 	1800 1150 1700 1150
 Connection ~ 1800 1150
 Wire Wire Line
-	1500 1150 1150 1150
+	1500 1150 1200 1150
 $Comp
 L KUTKiCad_symbol:SSM6J501NU Q1
 U 1 1 5D9715A0
@@ -2309,4 +2295,34 @@ Wire Wire Line
 Connection ~ 1700 3450
 Wire Wire Line
 	1700 3450 1700 3500
+$Comp
+L Connector:Conn_01x06_Male J6
+U 1 1 5D968A87
+P 950 1150
+F 0 "J6" H 922 1030 50  0000 R CNN
+F 1 "Umbilical" H 922 1121 50  0000 R CNN
+F 2 "KUTKiCad_footprint:Hirose_DF1E_DF1E-6P-2.5DS_1x06_P2.5mm_Vertical" H 950 1150 50  0001 C CNN
+F 3 "https://www.hirose.com/product/document?clcode=&productname=&series=DF1E&documenttype=Catalog&lang=ja&documentid=D49651_ja" H 950 1150 50  0001 C CNN
+F 4 "Digikey" H 950 1150 50  0001 C CNN "Agency"
+F 5 "DF1EC-6P-2.5DSA(35)" H 950 1150 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.jp/product-detail/ja/hirose-electric-co-ltd/DF1EC-6P-2.5DSA-35/H125168-ND/5416404" H 950 1150 50  0001 C CNN "Link"
+	1    950  1150
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	1150 1250 1200 1250
+Wire Wire Line
+	1200 1250 1200 1350
+Wire Wire Line
+	1150 1350 1200 1350
+Connection ~ 1200 1350
+Wire Wire Line
+	1200 1350 1250 1350
+Wire Wire Line
+	1150 1050 1200 1050
+Wire Wire Line
+	1200 1050 1200 1150
+Connection ~ 1200 1150
+Wire Wire Line
+	1200 1150 1150 1150
 $EndSCHEMATC
