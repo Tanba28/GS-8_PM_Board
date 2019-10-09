@@ -1441,37 +1441,37 @@ $EndComp
 $Comp
 L Device:CP_Small C24
 U 1 1 5DD1D31A
-P 1450 3250
-F 0 "C24" V 1500 3300 50  0000 L CNN
-F 1 "470u" V 1500 3200 50  0000 R CNN
-F 2 "Capacitor_SMD:CP_Elec_10x10" H 1450 3250 50  0001 C CNN
-F 3 "https://products.nichicon.co.jp/en/pdf/XJA043/e-uwt.pdf" H 1450 3250 50  0001 C CNN
-F 4 "Digikey" H 1450 3250 50  0001 C CNN "Agency"
-F 5 "UWT1E471MNL1GS" H 1450 3250 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.jp/product-detail/ja/nichicon/UWT1E471MNL1GS/493-2194-1-ND/590169" H 1450 3250 50  0001 C CNN "Link"
-F 7 "470uF" H 1450 3250 50  0001 C CNN "Value"
-	1    1450 3250
+P 1000 4300
+F 0 "C24" V 1050 4350 50  0000 L CNN
+F 1 "470u" V 1050 4250 50  0000 R CNN
+F 2 "Capacitor_SMD:CP_Elec_10x10" H 1000 4300 50  0001 C CNN
+F 3 "https://products.nichicon.co.jp/en/pdf/XJA043/e-uwt.pdf" H 1000 4300 50  0001 C CNN
+F 4 "Digikey" H 1000 4300 50  0001 C CNN "Agency"
+F 5 "UWT1E471MNL1GS" H 1000 4300 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.jp/product-detail/ja/nichicon/UWT1E471MNL1GS/493-2194-1-ND/590169" H 1000 4300 50  0001 C CNN "Link"
+F 7 "470uF" H 1000 4300 50  0001 C CNN "Value"
+	1    1000 4300
 	0    1    -1   0   
 $EndComp
 $Comp
 L Device:CP_Small C25
 U 1 1 5DD1D9F5
-P 1450 3400
-F 0 "C25" V 1500 3450 50  0000 L CNN
-F 1 "100u" V 1500 3350 50  0000 R CNN
-F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 1450 3400 50  0001 C CNN
-F 3 "https://products.nichicon.co.jp/en/pdf/XJA043/e-uwt.pdf" H 1450 3400 50  0001 C CNN
-F 4 "Digikey" H 1450 3400 50  0001 C CNN "Agency"
-F 5 "UWT1E101MCL1GS" H 1450 3400 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.jp/product-detail/ja/nichicon/UWT1E101MCL1GS/493-2190-1-ND/590165" H 1450 3400 50  0001 C CNN "Link"
-F 7 "100uF" H -250 2500 50  0001 C CNN "Value"
-	1    1450 3400
+P 1000 4450
+F 0 "C25" V 1050 4500 50  0000 L CNN
+F 1 "100u" V 1050 4400 50  0000 R CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 1000 4450 50  0001 C CNN
+F 3 "https://products.nichicon.co.jp/en/pdf/XJA043/e-uwt.pdf" H 1000 4450 50  0001 C CNN
+F 4 "Digikey" H 1000 4450 50  0001 C CNN "Agency"
+F 5 "UWT1E101MCL1GS" H 1000 4450 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.jp/product-detail/ja/nichicon/UWT1E101MCL1GS/493-2190-1-ND/590165" H 1000 4450 50  0001 C CNN "Link"
+F 7 "100uF" H -700 3550 50  0001 C CNN "Value"
+	1    1000 4450
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	1700 3250 1550 3250
+	1250 4300 1100 4300
 Wire Wire Line
-	1550 3400 1700 3400
+	1100 4450 1250 4450
 $Comp
 L power:GND #PWR0146
 U 1 1 5DD89391
@@ -1484,12 +1484,11 @@ F 3 "" H 1150 3700 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	1150 3400 1350 3400
+	700  4450 900  4450
 Wire Wire Line
-	1150 3250 1350 3250
+	700  4300 900  4300
 Wire Wire Line
 	1250 3650 1150 3650
-Connection ~ 1150 3650
 Wire Wire Line
 	1150 3650 1150 3700
 $Comp
@@ -1642,33 +1641,30 @@ F 7 "1kΩ" H 1550 3650 50  0001 C CNN "Value"
 	1    1550 3650
 	0    -1   1    0   
 $EndComp
-Connection ~ 1150 3400
+Connection ~ 700  4450
 Wire Wire Line
-	1150 3400 1150 3550
+	700  4450 700  4600
 $Comp
 L Device:C_Small C26
 U 1 1 5DF210F4
-P 1450 3550
-F 0 "C26" V 1500 3500 50  0000 R CNN
-F 1 "1u" V 1500 3600 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 1450 3550 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61E105KA12-01.pdf" H 1450 3550 50  0001 C CNN
-F 4 "Digikey" H 1450 3550 50  0001 C CNN "Agency"
-F 5 "GRM155R61E105KA12D" H 1450 3550 50  0001 C CNN "MPN"
-F 6 "1uF" H 1450 3550 50  0001 C CNN "Value"
-F 7 "https://www.digikey.jp/product-detail/ja/murata-electronics/GRM155R61E105KA12D/490-10017-1-ND/5026367" H -250 2500 50  0001 C CNN "Link"
-	1    1450 3550
+P 1000 4600
+F 0 "C26" V 1050 4550 50  0000 R CNN
+F 1 "1u" V 1050 4650 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1000 4600 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61E105KA12-01.pdf" H 1000 4600 50  0001 C CNN
+F 4 "Digikey" H 1000 4600 50  0001 C CNN "Agency"
+F 5 "GRM155R61E105KA12D" H 1000 4600 50  0001 C CNN "MPN"
+F 6 "1uF" H 1000 4600 50  0001 C CNN "Value"
+F 7 "https://www.digikey.jp/product-detail/ja/murata-electronics/GRM155R61E105KA12D/490-10017-1-ND/5026367" H -700 3550 50  0001 C CNN "Link"
+	1    1000 4600
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1150 3250 1150 3400
+	700  4300 700  4450
 Wire Wire Line
-	1550 3550 1700 3550
+	1100 4600 1250 4600
 Wire Wire Line
-	1350 3550 1150 3550
-Connection ~ 1150 3550
-Wire Wire Line
-	1150 3550 1150 3650
+	900  4600 700  4600
 $Comp
 L power:VCC #PWR0147
 U 1 1 5DF99AAC
@@ -2626,15 +2622,6 @@ F 6 "https://www.digikey.jp/product-detail/ja/diodes-incorporated/SDM8M100P5-13/
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	1900 2500 1900 3050
-Wire Wire Line
-	1700 3050 1700 3250
-Wire Wire Line
-	1700 2950 1700 3050
-Connection ~ 1700 3050
-Wire Wire Line
-	1900 3050 1700 3050
-Wire Wire Line
 	1550 2450 1300 2450
 Wire Wire Line
 	1550 2450 1700 2450
@@ -2643,18 +2630,51 @@ Wire Wire Line
 	1550 2350 1550 2450
 Wire Wire Line
 	5400 700  5400 1150
-Connection ~ 1700 3250
-Wire Wire Line
-	1700 3250 1700 3400
-Connection ~ 1700 3400
-Wire Wire Line
-	1700 3400 1700 3550
-Connection ~ 1700 3550
-Wire Wire Line
-	1700 3550 1700 3650
 Wire Wire Line
 	1650 3650 1700 3650
+Wire Wire Line
+	1900 2500 1900 4200
+Wire Wire Line
+	1700 4200 1700 5150
+Wire Wire Line
+	1900 4200 1700 4200
+Wire Wire Line
+	1700 2950 1700 3650
+Connection ~ 1700 4200
 Connection ~ 1700 3650
 Wire Wire Line
-	1700 3650 1700 5150
+	1700 3650 1700 4200
+$Comp
+L power:VCC #PWR?
+U 1 1 5DBF619F
+P 1250 4200
+F 0 "#PWR?" H 1250 4050 50  0001 C CNN
+F 1 "VCC" H 1267 4373 50  0000 C CNN
+F 2 "" H 1250 4200 50  0001 C CNN
+F 3 "" H 1250 4200 50  0001 C CNN
+	1    1250 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 4200 1250 4300
+Wire Wire Line
+	1250 4300 1250 4450
+Connection ~ 1250 4300
+Wire Wire Line
+	1250 4450 1250 4600
+Connection ~ 1250 4450
+$Comp
+L power:GND #PWR?
+U 1 1 5DCA69C1
+P 700 4700
+F 0 "#PWR?" H 700 4450 50  0001 C CNN
+F 1 "GND" H 705 4527 50  0000 C CNN
+F 2 "" H 700 4700 50  0001 C CNN
+F 3 "" H 700 4700 50  0001 C CNN
+	1    700  4700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	700  4700 700  4600
+Connection ~ 700  4600
 $EndSCHEMATC
