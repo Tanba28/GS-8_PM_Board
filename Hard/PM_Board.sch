@@ -573,10 +573,6 @@ F 3 "" H 3700 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2000 2500 2000 3500
-Wire Wire Line
-	2000 3500 2200 3500
-Wire Wire Line
 	3700 2500 3700 2600
 Wire Wire Line
 	2000 2500 2200 2500
@@ -609,7 +605,6 @@ F 3 "" H 2200 3800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2200 3600 2200 3500
-Connection ~ 2200 3500
 $Comp
 L power:GND #PWR0123
 U 1 1 5D988BFC
@@ -859,25 +854,25 @@ Text Notes 750  5350 0    50   ~ 0
 CAN Bus
 Text Notes 3350 5500 0    50   ~ 0
 Power Cutoff
-Text Label 4700 6200 0    50   ~ 0
+Text Label 4700 3650 0    50   ~ 0
 CAN_TXD
-Text Label 4700 6100 0    50   ~ 0
+Text Label 4700 3550 0    50   ~ 0
 CAN_RXD
-Text Label 4700 6300 0    50   ~ 0
+Text Label 4700 3750 0    50   ~ 0
 CAN_STB
 Wire Wire Line
-	4700 6100 5200 6100
+	4700 3550 5200 3550
 Wire Wire Line
-	4700 6200 5200 6200
+	4700 3650 5200 3650
 Wire Wire Line
-	4700 6300 5200 6300
-Text Label 4900 5150 0    50   ~ 0
-SD_MISO
-Text Label 4900 5050 0    50   ~ 0
-SD_CLK
-Text Label 4900 4950 0    50   ~ 0
-SD_MOSI
+	4700 3750 5200 3750
 Text Label 4900 4850 0    50   ~ 0
+SD_MISO
+Text Label 4900 4950 0    50   ~ 0
+SD_CLK
+Text Label 4900 5050 0    50   ~ 0
+SD_MOSI
+Text Label 4900 5150 0    50   ~ 0
 SD_CS
 Text Label 3800 1450 2    50   ~ 0
 INA226_SDA
@@ -887,46 +882,45 @@ Wire Wire Line
 	3300 1450 3800 1450
 Wire Wire Line
 	3300 1550 3800 1550
-Text Label 4400 3650 0    50   ~ 0
+Text Label 4400 6200 0    50   ~ 0
 INA226_SDA
-Text Label 4400 3750 0    50   ~ 0
+Text Label 4400 6100 0    50   ~ 0
 INA226_SCL
-Text Label 4400 3550 0    50   ~ 0
+Text Label 4400 6300 0    50   ~ 0
 INA226_Alert
 $Comp
 L power:+3.3V #PWR0137
 U 1 1 5D91E91D
-P 4500 3050
-F 0 "#PWR0137" H 4500 2900 50  0001 C CNN
-F 1 "+3.3V" H 4515 3223 50  0000 C CNN
-F 2 "" H 4500 3050 50  0001 C CNN
-F 3 "" H 4500 3050 50  0001 C CNN
-	1    4500 3050
+P 4500 5600
+F 0 "#PWR0137" H 4500 5450 50  0001 C CNN
+F 1 "+3.3V" H 4515 5773 50  0000 C CNN
+F 2 "" H 4500 5600 50  0001 C CNN
+F 3 "" H 4500 5600 50  0001 C CNN
+	1    4500 5600
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR0138
 U 1 1 5D91E993
-P 4750 3050
-F 0 "#PWR0138" H 4750 2900 50  0001 C CNN
-F 1 "+3.3V" H 4765 3223 50  0000 C CNN
-F 2 "" H 4750 3050 50  0001 C CNN
-F 3 "" H 4750 3050 50  0001 C CNN
-	1    4750 3050
+P 4750 5600
+F 0 "#PWR0138" H 4750 5450 50  0001 C CNN
+F 1 "+3.3V" H 4765 5773 50  0000 C CNN
+F 2 "" H 4750 5600 50  0001 C CNN
+F 3 "" H 4750 5600 50  0001 C CNN
+	1    4750 5600
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR0139
 U 1 1 5D91EA02
-P 5000 3050
-F 0 "#PWR0139" H 5000 2900 50  0001 C CNN
-F 1 "+3.3V" H 5015 3223 50  0000 C CNN
-F 2 "" H 5000 3050 50  0001 C CNN
-F 3 "" H 5000 3050 50  0001 C CNN
-	1    5000 3050
+P 5000 5600
+F 0 "#PWR0139" H 5000 5450 50  0001 C CNN
+F 1 "+3.3V" H 5015 5773 50  0000 C CNN
+F 2 "" H 5000 5600 50  0001 C CNN
+F 3 "" H 5000 5600 50  0001 C CNN
+	1    5000 5600
 	1    0    0    -1  
 $EndComp
-Connection ~ 2000 2500
 Text Label 1750 7000 2    50   ~ 0
 CAN_H
 Text Label 1750 7100 2    50   ~ 0
@@ -1342,12 +1336,12 @@ L Device:D_Schottky_Small D4
 U 1 1 5DD308E3
 P 1700 2300
 F 0 "D4" H 1700 2150 50  0000 C TNN
-F 1 "NTS1545" H 1700 2250 50  0000 C TNN
-F 2 "KUTKiCad_footprint:DFN5_5x6_1.27P" H 1700 2300 50  0001 C CNN
-F 3 "https://www.onsemi.com/pub/Collateral/NTS1545MFS-D.PDF" H 1700 2300 50  0001 C CNN
+F 1 "SDM8M100P5" H 1700 2250 50  0000 C TNN
+F 2 "KUTKiCad_footprint:D_PowerDI5" H 1700 2300 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/SDM8M100P5.pdf" H 1700 2300 50  0001 C CNN
 F 4 "Digikey" H 1700 2300 50  0001 C CNN "Agency"
-F 5 "NTS1545MFST1G" H 1700 2300 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.jp/product-detail/ja/on-semiconductor/NTS1545MFST1G/NTS1545MFST1GOSCT-ND/5022596" H 1700 2300 50  0001 C CNN "Link"
+F 5 "SDM8M100P5-13" H 1700 2300 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.jp/product-detail/ja/diodes-incorporated/SDM8M100P5-13/SDM8M100P5-13DICT-ND/7401111" H 1700 2300 50  0001 C CNN "Link"
 	1    1700 2300
 	0    -1   -1   0   
 $EndComp
@@ -1425,13 +1419,13 @@ Wire Wire Line
 $Comp
 L Device:LED_Small D3
 U 1 1 5DCD6F3F
-P 5750 1150
-F 0 "D3" V 5650 1200 50  0000 L TNN
-F 1 "Orange" V 5800 1150 50  0000 L TNN
-F 2 "LED_SMD:LED_0603_1608Metric" V 5750 1150 50  0001 C CNN
-F 3 "~" V 5750 1150 50  0001 C CNN
-	1    5750 1150
-	-1   0    0    1   
+P 1350 3650
+F 0 "D3" V 1250 3700 50  0000 L TNN
+F 1 "Orange" V 1400 3650 50  0000 L TNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 1350 3650 50  0001 C CNN
+F 3 "~" V 1350 3650 50  0001 C CNN
+	1    1350 3650
+	1    0    0    1   
 $EndComp
 $Comp
 L power:VCC #PWR0145
@@ -1447,76 +1441,70 @@ $EndComp
 $Comp
 L Device:CP_Small C24
 U 1 1 5DD1D31A
-P 5650 750
-F 0 "C24" V 5700 800 50  0000 L CNN
-F 1 "470u" V 5700 700 50  0000 R CNN
-F 2 "Capacitor_SMD:CP_Elec_10x10" H 5650 750 50  0001 C CNN
-F 3 "https://products.nichicon.co.jp/en/pdf/XJA043/e-uwt.pdf" H 5650 750 50  0001 C CNN
-F 4 "Digikey" H 5650 750 50  0001 C CNN "Agency"
-F 5 "UWT1E471MNL1GS" H 5650 750 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.jp/product-detail/ja/nichicon/UWT1E471MNL1GS/493-2194-1-ND/590169" H 5650 750 50  0001 C CNN "Link"
-F 7 "470uF" H 5650 750 50  0001 C CNN "Value"
-	1    5650 750 
-	0    -1   -1   0   
+P 1450 3250
+F 0 "C24" V 1500 3300 50  0000 L CNN
+F 1 "470u" V 1500 3200 50  0000 R CNN
+F 2 "Capacitor_SMD:CP_Elec_10x10" H 1450 3250 50  0001 C CNN
+F 3 "https://products.nichicon.co.jp/en/pdf/XJA043/e-uwt.pdf" H 1450 3250 50  0001 C CNN
+F 4 "Digikey" H 1450 3250 50  0001 C CNN "Agency"
+F 5 "UWT1E471MNL1GS" H 1450 3250 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.jp/product-detail/ja/nichicon/UWT1E471MNL1GS/493-2194-1-ND/590169" H 1450 3250 50  0001 C CNN "Link"
+F 7 "470uF" H 1450 3250 50  0001 C CNN "Value"
+	1    1450 3250
+	0    1    -1   0   
 $EndComp
 $Comp
 L Device:CP_Small C25
 U 1 1 5DD1D9F5
-P 5650 900
-F 0 "C25" V 5700 950 50  0000 L CNN
-F 1 "100u" V 5700 850 50  0000 R CNN
-F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 5650 900 50  0001 C CNN
-F 3 "https://products.nichicon.co.jp/en/pdf/XJA043/e-uwt.pdf" H 5650 900 50  0001 C CNN
-F 4 "Digikey" H 5650 900 50  0001 C CNN "Agency"
-F 5 "UWT1E101MCL1GS" H 5650 900 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.jp/product-detail/ja/nichicon/UWT1E101MCL1GS/493-2190-1-ND/590165" H 5650 900 50  0001 C CNN "Link"
-F 7 "100uF" H 3950 0   50  0001 C CNN "Value"
-	1    5650 900 
-	0    -1   -1   0   
+P 1450 3400
+F 0 "C25" V 1500 3450 50  0000 L CNN
+F 1 "100u" V 1500 3350 50  0000 R CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 1450 3400 50  0001 C CNN
+F 3 "https://products.nichicon.co.jp/en/pdf/XJA043/e-uwt.pdf" H 1450 3400 50  0001 C CNN
+F 4 "Digikey" H 1450 3400 50  0001 C CNN "Agency"
+F 5 "UWT1E101MCL1GS" H 1450 3400 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.jp/product-detail/ja/nichicon/UWT1E101MCL1GS/493-2190-1-ND/590165" H 1450 3400 50  0001 C CNN "Link"
+F 7 "100uF" H -250 2500 50  0001 C CNN "Value"
+	1    1450 3400
+	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	5400 700  5400 750 
+	1700 3250 1550 3250
 Wire Wire Line
-	5400 750  5550 750 
-Connection ~ 5400 750 
-Wire Wire Line
-	5400 750  5400 900 
-Wire Wire Line
-	5550 900  5400 900 
-Connection ~ 5400 900 
+	1550 3400 1700 3400
 $Comp
 L power:GND #PWR0146
 U 1 1 5DD89391
-P 5950 1200
-F 0 "#PWR0146" H 5950 950 50  0001 C CNN
-F 1 "GND" H 5955 1027 50  0000 C CNN
-F 2 "" H 5950 1200 50  0001 C CNN
-F 3 "" H 5950 1200 50  0001 C CNN
-	1    5950 1200
-	1    0    0    -1  
+P 1150 3700
+F 0 "#PWR0146" H 1150 3450 50  0001 C CNN
+F 1 "GND" H 1155 3527 50  0000 C CNN
+F 2 "" H 1150 3700 50  0001 C CNN
+F 3 "" H 1150 3700 50  0001 C CNN
+	1    1150 3700
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	5950 900  5750 900 
+	1150 3400 1350 3400
 Wire Wire Line
-	5950 750  5750 750 
+	1150 3250 1350 3250
 Wire Wire Line
-	5850 1150 5950 1150
-Connection ~ 5950 1150
+	1250 3650 1150 3650
+Connection ~ 1150 3650
 Wire Wire Line
-	5950 1150 5950 1200
+	1150 3650 1150 3700
 $Comp
 L Device:R_Small R13
 U 1 1 5DECB132
-P 4500 3150
-F 0 "R13" H 4559 3196 50  0000 L CNN
-F 1 "10k" H 4559 3105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 4500 3150 50  0001 C CNN
-F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 4500 3150 50  0001 C CNN
-F 4 "Digikey" H 4500 3150 50  0001 C CNN "Agency"
-F 5 "ERJ-2GEJ103X" H 4500 3150 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.jp/product-detail/ja/panasonic-electronic-components/ERJ-2GEJ103X/P10KJCT-ND/146734" H 4500 3150 50  0001 C CNN "Link"
-F 7 "10kΩ" H 4500 3150 50  0001 C CNN "Value"
-	1    4500 3150
+P 4500 5700
+F 0 "R13" H 4559 5746 50  0000 L CNN
+F 1 "10k" H 4559 5655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4500 5700 50  0001 C CNN
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 4500 5700 50  0001 C CNN
+F 4 "Digikey" H 4500 5700 50  0001 C CNN "Agency"
+F 5 "ERJ-2GEJ103X" H 4500 5700 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.jp/product-detail/ja/panasonic-electronic-components/ERJ-2GEJ103X/P10KJCT-ND/146734" H 4500 5700 50  0001 C CNN "Link"
+F 7 "10kΩ" H 4500 5700 50  0001 C CNN "Value"
+	1    4500 5700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1552,31 +1540,31 @@ $EndComp
 $Comp
 L Device:R_Small R14
 U 1 1 5DEF321A
-P 4750 3150
-F 0 "R14" H 4809 3196 50  0000 L CNN
-F 1 "10k" H 4809 3105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 4750 3150 50  0001 C CNN
-F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 4750 3150 50  0001 C CNN
-F 4 "Digikey" H 4750 3150 50  0001 C CNN "Agency"
-F 5 "ERJ-2GEJ103X" H 4750 3150 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.jp/product-detail/ja/panasonic-electronic-components/ERJ-2GEJ103X/P10KJCT-ND/146734" H 4750 3150 50  0001 C CNN "Link"
-F 7 "10kΩ" H 4750 3150 50  0001 C CNN "Value"
-	1    4750 3150
+P 4750 5700
+F 0 "R14" H 4809 5746 50  0000 L CNN
+F 1 "10k" H 4809 5655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4750 5700 50  0001 C CNN
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 4750 5700 50  0001 C CNN
+F 4 "Digikey" H 4750 5700 50  0001 C CNN "Agency"
+F 5 "ERJ-2GEJ103X" H 4750 5700 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.jp/product-detail/ja/panasonic-electronic-components/ERJ-2GEJ103X/P10KJCT-ND/146734" H 4750 5700 50  0001 C CNN "Link"
+F 7 "10kΩ" H 4750 5700 50  0001 C CNN "Value"
+	1    4750 5700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small R15
 U 1 1 5DEF32AE
-P 5000 3150
-F 0 "R15" H 5059 3196 50  0000 L CNN
-F 1 "10k" H 5059 3105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 5000 3150 50  0001 C CNN
-F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 5000 3150 50  0001 C CNN
-F 4 "Digikey" H 5000 3150 50  0001 C CNN "Agency"
-F 5 "ERJ-2GEJ103X" H 5000 3150 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.jp/product-detail/ja/panasonic-electronic-components/ERJ-2GEJ103X/P10KJCT-ND/146734" H 5000 3150 50  0001 C CNN "Link"
-F 7 "10kΩ" H 5000 3150 50  0001 C CNN "Value"
-	1    5000 3150
+P 5000 5700
+F 0 "R15" H 5059 5746 50  0000 L CNN
+F 1 "10k" H 5059 5655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5000 5700 50  0001 C CNN
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 5000 5700 50  0001 C CNN
+F 4 "Digikey" H 5000 5700 50  0001 C CNN "Agency"
+F 5 "ERJ-2GEJ103X" H 5000 5700 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.jp/product-detail/ja/panasonic-electronic-components/ERJ-2GEJ103X/P10KJCT-ND/146734" H 5000 5700 50  0001 C CNN "Link"
+F 7 "10kΩ" H 5000 5700 50  0001 C CNN "Value"
+	1    5000 5700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1593,21 +1581,6 @@ F 6 "https://www.digikey.jp/product-detail/ja/panasonic-electronic-components/ER
 F 7 "56Ω" H 2150 7200 50  0001 C CNN "Value"
 	1    2150 7200
 	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_Small R6
-U 1 1 5DEF48DF
-P 2050 5450
-F 0 "R6" H 2109 5496 50  0000 L CNN
-F 1 "1k" H 2109 5405 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 2050 5450 50  0001 C CNN
-F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 2050 5450 50  0001 C CNN
-F 4 "Digikey" H 2050 5450 50  0001 C CNN "Agency"
-F 5 "ERJ-2GEJ102X" H 2050 5450 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.jp/product-detail/ja/panasonic-electronic-components/ERJ-2GEJ102X/P1.0KJCT-ND/146897" H 2050 5450 50  0001 C CNN "Link"
-F 7 "1kΩ" H 2050 5450 50  0001 C CNN "Value"
-	1    2050 5450
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small R8
@@ -1657,52 +1630,45 @@ $EndComp
 $Comp
 L Device:R_Small R3
 U 1 1 5DF0B477
-P 5550 1150
-F 0 "R3" H 5609 1196 50  0000 L CNN
-F 1 "1k" H 5609 1105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 5550 1150 50  0001 C CNN
-F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 5550 1150 50  0001 C CNN
-F 4 "Digikey" H 5550 1150 50  0001 C CNN "Agency"
-F 5 "ERJ-2GEJ102X" H 5550 1150 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.jp/product-detail/ja/panasonic-electronic-components/ERJ-2GEJ102X/P1.0KJCT-ND/146897" H 5550 1150 50  0001 C CNN "Link"
-F 7 "1kΩ" H 5550 1150 50  0001 C CNN "Value"
-	1    5550 1150
-	0    1    1    0   
+P 1550 3650
+F 0 "R3" H 1609 3696 50  0000 L CNN
+F 1 "1k" H 1609 3605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 1550 3650 50  0001 C CNN
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 1550 3650 50  0001 C CNN
+F 4 "Digikey" H 1550 3650 50  0001 C CNN "Agency"
+F 5 "ERJ-2GEJ102X" H 1550 3650 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.jp/product-detail/ja/panasonic-electronic-components/ERJ-2GEJ102X/P1.0KJCT-ND/146897" H 1550 3650 50  0001 C CNN "Link"
+F 7 "1kΩ" H 1550 3650 50  0001 C CNN "Value"
+	1    1550 3650
+	0    -1   1    0   
 $EndComp
-Connection ~ 5950 900 
+Connection ~ 1150 3400
 Wire Wire Line
-	5950 900  5950 1050
+	1150 3400 1150 3550
 $Comp
 L Device:C_Small C26
 U 1 1 5DF210F4
-P 5650 1050
-F 0 "C26" V 5700 1000 50  0000 R CNN
-F 1 "1u" V 5700 1100 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 5650 1050 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61E105KA12-01.pdf" H 5650 1050 50  0001 C CNN
-F 4 "Digikey" H 5650 1050 50  0001 C CNN "Agency"
-F 5 "GRM155R61E105KA12D" H 5650 1050 50  0001 C CNN "MPN"
-F 6 "1uF" H 5650 1050 50  0001 C CNN "Value"
-F 7 "https://www.digikey.jp/product-detail/ja/murata-electronics/GRM155R61E105KA12D/490-10017-1-ND/5026367" H 3950 0   50  0001 C CNN "Link"
-	1    5650 1050
-	0    1    -1   0   
+P 1450 3550
+F 0 "C26" V 1500 3500 50  0000 R CNN
+F 1 "1u" V 1500 3600 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1450 3550 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61E105KA12-01.pdf" H 1450 3550 50  0001 C CNN
+F 4 "Digikey" H 1450 3550 50  0001 C CNN "Agency"
+F 5 "GRM155R61E105KA12D" H 1450 3550 50  0001 C CNN "MPN"
+F 6 "1uF" H 1450 3550 50  0001 C CNN "Value"
+F 7 "https://www.digikey.jp/product-detail/ja/murata-electronics/GRM155R61E105KA12D/490-10017-1-ND/5026367" H -250 2500 50  0001 C CNN "Link"
+	1    1450 3550
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5950 750  5950 900 
+	1150 3250 1150 3400
 Wire Wire Line
-	5400 900  5400 1050
+	1550 3550 1700 3550
 Wire Wire Line
-	5400 1150 5450 1150
+	1350 3550 1150 3550
+Connection ~ 1150 3550
 Wire Wire Line
-	5550 1050 5400 1050
-Connection ~ 5400 1050
-Wire Wire Line
-	5400 1050 5400 1150
-Wire Wire Line
-	5750 1050 5950 1050
-Connection ~ 5950 1050
-Wire Wire Line
-	5950 1050 5950 1150
+	1150 3550 1150 3650
 $Comp
 L power:VCC #PWR0147
 U 1 1 5DF99AAC
@@ -1769,39 +1735,10 @@ F 3 "" H 1200 1700 50  0001 C CNN
 	1    1200 1700
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:D_Schottky_Small D5
-U 1 1 5D8ED5F7
-P 5200 1150
-F 0 "D5" H 5200 1000 50  0000 C TNN
-F 1 "NTS1545" H 5200 1100 50  0000 C TNN
-F 2 "KUTKiCad_footprint:DFN5_5x6_1.27P" H 5200 1150 50  0001 C CNN
-F 3 "https://www.onsemi.com/pub/Collateral/NTS1545MFS-D.PDF" H 5200 1150 50  0001 C CNN
-F 4 "Digikey" H 5200 1150 50  0001 C CNN "Agency"
-F 5 "NTS1545MFST1G" H 5200 1150 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.jp/product-detail/ja/on-semiconductor/NTS1545MFST1G/NTS1545MFST1GOSCT-ND/5022596" H 5200 1150 50  0001 C CNN "Link"
-	1    5200 1150
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	5400 1150 5300 1150
-Connection ~ 5400 1150
 Wire Wire Line
 	5100 1150 4800 1150
-$Comp
-L KUTKiCad_symbol:SSM6J501NU Q1
-U 1 1 5D9715A0
-P 1700 5650
-F 0 "Q1" H 1595 5696 50  0000 R CNN
-F 1 "SSM6J501NU" H 1595 5605 50  0000 R CNN
-F 2 "KUTKiCad_footprint:UDFN6B" H 1800 5350 50  0001 C CNN
-F 3 "https://toshiba.semicon-storage.com/jp/product/mosfet/detail.SSM6J501NU.html" H 1800 5350 50  0001 C CNN
-F 4 "Digikey" H 200 0   50  0001 C CNN "Agency"
-F 5 "https://www.digikey.jp/product-detail/ja/toshiba-semiconductor-and-storage/SSM6J501NULF/SSM6J501NULFCT-ND/3191349" H 200 0   50  0001 C CNN "Link"
-F 6 "SSM6J501NU,LF" H 200 0   50  0001 C CNN "MPN"
-	1    1700 5650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1500 6800 1500 7400
 Connection ~ 1500 6800
@@ -1828,8 +1765,6 @@ Wire Wire Line
 	2000 5650 2050 5650
 Wire Wire Line
 	2050 5550 2050 5650
-Wire Wire Line
-	1700 2500 2000 2500
 $Comp
 L Device:Q_NMOS_GSD Q2
 U 1 1 5DB5D4F9
@@ -1865,8 +1800,6 @@ F 3 "" H 2550 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2850 5650 3250 5650
-Wire Wire Line
 	1700 5850 1700 6150
 Connection ~ 1700 6150
 Wire Wire Line
@@ -1875,24 +1808,6 @@ Wire Wire Line
 	2050 5150 2050 5350
 Wire Wire Line
 	1700 5150 1700 5450
-$Comp
-L Device:R_Small R7
-U 1 1 5DD77184
-P 3250 5750
-F 0 "R7" H 3309 5796 50  0000 L CNN
-F 1 "1k" H 3309 5705 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 3250 5750 50  0001 C CNN
-F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 3250 5750 50  0001 C CNN
-F 4 "Digikey" H 3250 5750 50  0001 C CNN "Agency"
-F 5 "ERJ-2GEJ102X" H 3250 5750 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.jp/product-detail/ja/panasonic-electronic-components/ERJ-2GEJ102X/P1.0KJCT-ND/146897" H 3250 5750 50  0001 C CNN "Link"
-F 7 "1kΩ" H 3250 5750 50  0001 C CNN "Value"
-	1    3250 5750
-	1    0    0    -1  
-$EndComp
-Connection ~ 3250 5650
-Wire Wire Line
-	3250 5650 3850 5650
 $Comp
 L power:GND #PWR0148
 U 1 1 5DD77234
@@ -2028,7 +1943,6 @@ Wire Wire Line
 Connection ~ 1700 1800
 Wire Wire Line
 	1700 2400 1700 2450
-Connection ~ 1700 2500
 Wire Wire Line
 	7050 1100 7000 1100
 $Comp
@@ -2042,13 +1956,6 @@ F 3 "" H 1550 2350 50  0001 C CNN
 	1    1550 2350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1550 2350 1550 2450
-Wire Wire Line
-	1550 2450 1700 2450
-Connection ~ 1700 2450
-Wire Wire Line
-	1700 2450 1700 2500
 $Comp
 L Connector:Conn_01x06_Male J6
 U 1 1 5D968A87
@@ -2404,38 +2311,36 @@ Connection ~ 8200 2000
 Wire Wire Line
 	8200 2000 8200 2050
 Wire Wire Line
-	4400 3750 4900 3750
+	4400 6300 4900 6300
 Wire Wire Line
-	4900 3750 4900 3450
+	4900 6300 4900 6000
 Wire Wire Line
-	4900 3450 4500 3450
+	4900 6000 4500 6000
 Wire Wire Line
-	4500 3450 4500 3250
-Connection ~ 4900 3750
+	4500 6000 4500 5800
+Connection ~ 4900 6300
 Wire Wire Line
-	4900 3750 5200 3750
+	4900 6300 5200 6300
 Wire Wire Line
-	4400 3650 4950 3650
+	4400 6200 4950 6200
 Wire Wire Line
-	4950 3650 4950 3400
+	4950 6200 4950 5950
 Wire Wire Line
-	4950 3400 4750 3400
+	4950 5950 4750 5950
 Wire Wire Line
-	4750 3400 4750 3250
-Connection ~ 4950 3650
+	4750 5950 4750 5800
+Connection ~ 4950 6200
 Wire Wire Line
-	4950 3650 5200 3650
+	4950 6200 5200 6200
 Wire Wire Line
-	4400 3550 5000 3550
+	4400 6100 5000 6100
 Wire Wire Line
-	5000 3550 5000 3250
-Connection ~ 5000 3550
+	5000 6100 5000 5800
+Connection ~ 5000 6100
 Wire Wire Line
-	5000 3550 5200 3550
+	5000 6100 5200 6100
 Wire Wire Line
 	4400 3850 5200 3850
-Wire Wire Line
-	2000 3500 2000 4500
 Wire Wire Line
 	2000 4500 2200 4500
 $Comp
@@ -2562,9 +2467,6 @@ Wire Wire Line
 Connection ~ 3350 4500
 Wire Wire Line
 	3350 4500 3700 4500
-Wire Wire Line
-	1700 2500 1700 5150
-Connection ~ 1700 5150
 $Comp
 L power:+3.3VP #PWR?
 U 1 1 5DDB3111
@@ -2578,4 +2480,181 @@ F 3 "" H 3700 4350 50  0001 C CNN
 	1    3700 4350
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:Q_PMOS_GSD Q1
+U 1 1 5D9F98A4
+P 1800 5650
+F 0 "Q1" H 2004 5604 50  0000 L CNN
+F 1 "SSM3J328R" H 2004 5695 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2000 5750 50  0001 C CNN
+F 3 "file:///C:/Users/wa2n8/Downloads/SSM3J328R_datasheet_en_20140301.pdf" H 1800 5650 50  0001 C CNN
+F 4 "Digikey" H 1800 5650 50  0001 C CNN "Agency"
+F 5 "SSM3J328R,LF" H 1800 5650 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.jp/product-detail/ja/toshiba-semiconductor-and-storage/SSM3J328RLF/SSM3J328RLFCT-ND/2753207" H 1800 5650 50  0001 C CNN "Link"
+	1    1800 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Q_PMOS_GSD Q3
+U 1 1 5D9FA0CD
+P 1600 2750
+F 0 "Q3" H 1800 2750 50  0000 L CNN
+F 1 "SSM3J328R" H 1250 2900 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 1800 2850 50  0001 C CNN
+F 3 "file:///C:/Users/wa2n8/Downloads/SSM3J328R_datasheet_en_20140301.pdf" H 1600 2750 50  0001 C CNN
+F 4 "Digikey" H 1600 2750 50  0001 C CNN "Agency"
+F 5 "SSM3J328R,LF" H 1600 2750 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.jp/product-detail/ja/toshiba-semiconductor-and-storage/SSM3J328RLF/SSM3J328RLFCT-ND/2753207" H 1600 2750 50  0001 C CNN "Link"
+	1    1600 2750
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J7
+U 1 1 5DA15562
+P 850 2750
+F 0 "J7" H 956 2928 50  0000 C CNN
+F 1 "SW" H 956 2837 50  0000 C CNN
+F 2 "KUTKiCad_footprint:Hirose_DF1E_DF1E-2P-2.5DS_1x02_P2.5mm_Vertical" H 850 2750 50  0001 C CNN
+F 3 "https://www.hirose.com/product/document?clcode=&productname=&series=DF1E&documenttype=Catalog&lang=ja&documentid=D49651_ja" H 850 2750 50  0001 C CNN
+F 4 "Digiky" H 850 2750 50  0001 C CNN "Agency"
+F 5 "DF1EC-2P-2.5DSA(35)" H 850 2750 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.jp/product-detail/ja/hirose-electric-co-ltd/DF1EC-2P-2.5DSA-35/H125164-ND/5416400" H 850 2750 50  0001 C CNN "Link"
+	1    850  2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 2450 1700 2550
+Connection ~ 1700 2450
+Wire Wire Line
+	2000 2500 1900 2500
+Connection ~ 2000 2500
+Wire Wire Line
+	1300 2450 1300 2500
+Wire Wire Line
+	1300 2700 1300 2750
+Wire Wire Line
+	1300 2750 1400 2750
+Wire Wire Line
+	1300 2750 1050 2750
+Connection ~ 1300 2750
+$Comp
+L power:GND #PWR0156
+U 1 1 5DBCF276
+P 1150 2950
+F 0 "#PWR0156" H 1150 2700 50  0001 C CNN
+F 1 "GND" H 1155 2777 50  0000 C CNN
+F 2 "" H 1150 2950 50  0001 C CNN
+F 3 "" H 1150 2950 50  0001 C CNN
+	1    1150 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 2850 1150 2850
+Wire Wire Line
+	1150 2850 1150 2950
+Connection ~ 1700 5150
+Wire Wire Line
+	2000 2500 2000 3500
+Wire Wire Line
+	2200 3500 2000 3500
+Connection ~ 2200 3500
+Connection ~ 2000 3500
+Wire Wire Line
+	2000 3500 2000 4500
+$Comp
+L Device:R_Small R21
+U 1 1 5DC617B1
+P 1300 2600
+F 0 "R21" H 1359 2646 50  0000 L CNN
+F 1 "10k" H 1359 2555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 1300 2600 50  0001 C CNN
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 1300 2600 50  0001 C CNN
+F 4 "Digikey" H 1300 2600 50  0001 C CNN "Agency"
+F 5 "ERJ-2GEJ103X" H 1300 2600 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.jp/product-detail/ja/panasonic-electronic-components/ERJ-2GEJ103X/P10KJCT-ND/146734" H 1300 2600 50  0001 C CNN "Link"
+F 7 "10kΩ" H 1300 2600 50  0001 C CNN "Value"
+	1    1300 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R6
+U 1 1 5DC61C59
+P 2050 5450
+F 0 "R6" H 2109 5496 50  0000 L CNN
+F 1 "10k" H 2109 5405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2050 5450 50  0001 C CNN
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 2050 5450 50  0001 C CNN
+F 4 "Digikey" H 2050 5450 50  0001 C CNN "Agency"
+F 5 "ERJ-2GEJ103X" H 2050 5450 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.jp/product-detail/ja/panasonic-electronic-components/ERJ-2GEJ103X/P10KJCT-ND/146734" H 2050 5450 50  0001 C CNN "Link"
+F 7 "10kΩ" H 2050 5450 50  0001 C CNN "Value"
+	1    2050 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R7
+U 1 1 5DC61E20
+P 3250 5750
+F 0 "R7" H 3309 5796 50  0000 L CNN
+F 1 "10k" H 3309 5705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3250 5750 50  0001 C CNN
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 3250 5750 50  0001 C CNN
+F 4 "Digikey" H 3250 5750 50  0001 C CNN "Agency"
+F 5 "ERJ-2GEJ103X" H 3250 5750 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.jp/product-detail/ja/panasonic-electronic-components/ERJ-2GEJ103X/P10KJCT-ND/146734" H 3250 5750 50  0001 C CNN "Link"
+F 7 "10kΩ" H 3250 5750 50  0001 C CNN "Value"
+	1    3250 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 5650 3250 5650
+Connection ~ 3250 5650
+Wire Wire Line
+	3250 5650 3850 5650
+$Comp
+L Device:D_Schottky_Small D5
+U 1 1 5DC63C02
+P 5200 1150
+F 0 "D5" H 5200 1250 50  0000 C TNN
+F 1 "SDM8M100P5" H 5200 1100 50  0000 C TNN
+F 2 "KUTKiCad_footprint:D_PowerDI5" H 5200 1150 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/SDM8M100P5.pdf" H 5200 1150 50  0001 C CNN
+F 4 "Digikey" H 5200 1150 50  0001 C CNN "Agency"
+F 5 "SDM8M100P5-13" H 5200 1150 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.jp/product-detail/ja/diodes-incorporated/SDM8M100P5-13/SDM8M100P5-13DICT-ND/7401111" H 5200 1150 50  0001 C CNN "Link"
+	1    5200 1150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 2500 1900 3050
+Wire Wire Line
+	1700 3050 1700 3250
+Wire Wire Line
+	1700 2950 1700 3050
+Connection ~ 1700 3050
+Wire Wire Line
+	1900 3050 1700 3050
+Wire Wire Line
+	1550 2450 1300 2450
+Wire Wire Line
+	1550 2450 1700 2450
+Connection ~ 1550 2450
+Wire Wire Line
+	1550 2350 1550 2450
+Wire Wire Line
+	5400 700  5400 1150
+Connection ~ 1700 3250
+Wire Wire Line
+	1700 3250 1700 3400
+Connection ~ 1700 3400
+Wire Wire Line
+	1700 3400 1700 3550
+Connection ~ 1700 3550
+Wire Wire Line
+	1700 3550 1700 3650
+Wire Wire Line
+	1650 3650 1700 3650
+Connection ~ 1700 3650
+Wire Wire Line
+	1700 3650 1700 5150
 $EndSCHEMATC
