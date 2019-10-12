@@ -1769,7 +1769,7 @@ F 0 "Q2" H 2854 5696 50  0000 L CNN
 F 1 "2n7002" H 2854 5605 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 2850 5750 50  0001 C CNN
 F 3 "http://akizukidenshi.com/download/2n7002.pdf" H 2650 5650 50  0001 C CNN
-F 4 "秋月電子" H 200 0   50  0001 C CNN "Agency"
+F 4 "akizuki" H 200 0   50  0001 C CNN "Agency"
 F 5 "http://akizukidenshi.com/catalog/g/gI-03919/" H 200 0   50  0001 C CNN "Link"
 F 6 "2N7002" H 200 0   50  0001 C CNN "MPN"
 	1    2650 5650
@@ -1833,7 +1833,7 @@ F 0 "D6" H 2900 2555 50  0000 C CNN
 F 1 "RSX101VA" H 2900 2464 50  0000 C CNN
 F 2 "Diode_SMD:D_TUMD2" V 2900 2350 50  0001 C CNN
 F 3 "http://akizukidenshi.com/download/ds/rohm/rsx101vam30-j.pdf" V 2900 2350 50  0001 C CNN
-F 4 "秋月電子" H 2900 2350 50  0001 C CNN "Agency"
+F 4 "akizuki" H 2900 2350 50  0001 C CNN "Agency"
 F 5 "http://akizukidenshi.com/catalog/g/gI-05951/" H 2900 2350 50  0001 C CNN "Link"
 F 6 "RSX101VAM-30TR" H 2900 2350 50  0001 C CNN "MPN"
 	1    2900 2350
@@ -1861,7 +1861,7 @@ F 0 "D7" H 2900 3555 50  0000 C CNN
 F 1 "RSX101VA" H 2900 3464 50  0000 C CNN
 F 2 "Diode_SMD:D_TUMD2" V 2900 3350 50  0001 C CNN
 F 3 "http://akizukidenshi.com/download/ds/rohm/rsx101vam30-j.pdf" V 2900 3350 50  0001 C CNN
-F 4 "秋月電子" H 2900 3350 50  0001 C CNN "Agency"
+F 4 "akizuki" H 2900 3350 50  0001 C CNN "Agency"
 F 5 "http://akizukidenshi.com/catalog/g/gI-05951/" H 2900 3350 50  0001 C CNN "Link"
 F 6 "RSX101VAM-30TR" H 2900 3350 50  0001 C CNN "MPN"
 	1    2900 3350
@@ -2155,7 +2155,7 @@ F 0 "J1" H 10250 2567 50  0000 C CNN
 F 1 "Micro_SD_Card_Det_Hirose_DM3AT" H 10250 2476 50  0000 C CNN
 F 2 "Connector_Card:microSD_HC_Hirose_DM3AT-SF-PEJM5" H 12350 2450 50  0001 C CNN
 F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1" H 10300 1850 50  0001 C CNN
-F 4 "秋月電子" H 10300 1750 50  0001 C CNN "Agency"
+F 4 "akizuki" H 10300 1750 50  0001 C CNN "Agency"
 F 5 "DM3AT-SF-PEJM5" H 10300 1750 50  0001 C CNN "MPN"
 F 6 "http://akizukidenshi.com/catalog/g/gC-02395/" H 10300 1750 50  0001 C CNN "Link"
 	1    10300 1750
@@ -2443,7 +2443,7 @@ F 0 "D8" H 2900 4555 50  0000 C CNN
 F 1 "RSX101VA" H 2900 4464 50  0000 C CNN
 F 2 "Diode_SMD:D_TUMD2" V 2900 4350 50  0001 C CNN
 F 3 "http://akizukidenshi.com/download/ds/rohm/rsx101vam30-j.pdf" V 2900 4350 50  0001 C CNN
-F 4 "秋月電子" H 2900 4350 50  0001 C CNN "Agency"
+F 4 "akizuki" H 2900 4350 50  0001 C CNN "Agency"
 F 5 "http://akizukidenshi.com/catalog/g/gI-05951/" H 2900 4350 50  0001 C CNN "Link"
 F 6 "RSX101VAM-30TR" H 2900 4350 50  0001 C CNN "MPN"
 	1    2900 4350
@@ -2645,10 +2645,10 @@ Connection ~ 1700 3650
 Wire Wire Line
 	1700 3650 1700 4200
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR0157
 U 1 1 5DBF619F
 P 1250 4200
-F 0 "#PWR?" H 1250 4050 50  0001 C CNN
+F 0 "#PWR0157" H 1250 4050 50  0001 C CNN
 F 1 "VCC" H 1267 4373 50  0000 C CNN
 F 2 "" H 1250 4200 50  0001 C CNN
 F 3 "" H 1250 4200 50  0001 C CNN
@@ -2664,10 +2664,10 @@ Wire Wire Line
 	1250 4450 1250 4600
 Connection ~ 1250 4450
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0158
 U 1 1 5DCA69C1
 P 700 4700
-F 0 "#PWR?" H 700 4450 50  0001 C CNN
+F 0 "#PWR0158" H 700 4450 50  0001 C CNN
 F 1 "GND" H 705 4527 50  0000 C CNN
 F 2 "" H 700 4700 50  0001 C CNN
 F 3 "" H 700 4700 50  0001 C CNN
